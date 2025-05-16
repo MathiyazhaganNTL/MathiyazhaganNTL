@@ -1,6 +1,3 @@
-- 👋 Hi, I’m @MathiyazhaganNTL
-- 👀 I’m interested in coding
-- 🌱 I’m currently learning ...
-- 💞️ I’m looking to collaborate on ...
-- 📫 How to reach me ...
-- Next to learn for your future
+Hi I am Mathiyazhagan 💕
+Nick Name : Silent Thunder🤫
+Aim : Next to Learn for Your Future💙
