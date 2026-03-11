@@ -1,46 +1,46 @@
 <!-- ╔══════════════════════════════════════════════════════════════════════╗ -->
-<!-- ║           ⚡  MATHIYAZHAGAN NTL — CYBERPUNK PROFILE  ⚡            ║ -->
+<!-- ║           MATHIYAZHAGAN NTL — CYBERPUNK DEVELOPER PROFILE          ║ -->
 <!-- ╚══════════════════════════════════════════════════════════════════════╝ -->
 
-<!-- ═══════════════════ MATRIX RAIN HEADER ═══════════════════ -->
+<!-- ═══════════════════ ANIMATED RGB HERO HEADER ═══════════════════ -->
 
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=venom&height=300&color=0:0D1117,50:00F7FF,100:0D1117&text=MATHIYAZHAGAN%20NTL&fontSize=50&fontColor=00F7FF&animation=fadeIn&fontAlignY=45&desc=⚡%20Silent%20Thunder%20Developer%20⚡&descSize=18&descAlignY=65&descAlign=50&stroke=00F7FF&strokeWidth=1" width="100%"/>
-
-</div>
-
-<!-- ═══════════════════ TYPING ANIMATION ═══════════════════ -->
-
-<div align="center">
-
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=30&duration=2500&pause=800&color=00F7FF&center=true&vCenter=true&multiline=true&repeat=true&width=900&height=120&lines=%E2%9A%A1+Silent+Thunder+Developer+%E2%9A%A1;%F0%9F%A4%96+AI+System+Builder+%7C+Cyberpunk+Architect;%F0%9F%94%AE+Next+to+Learn+For+Your+Future;%F0%9F%92%80+Building+Intelligent+Technology;%F0%9F%94%A5+Consistent+Coding+Everyday" />
+<img src="./assets/header.svg" width="100%" alt="Mathiyazhagan NTL — Cyberpunk Developer Banner"/>
 
 </div>
 
 <br/>
 
-<!-- ═══════════════════ ANIMATED WAVE DIVIDER ═══════════════════ -->
+<!-- ═══════════════════ LIVE TYPING ANIMATION ═══════════════════ -->
+
+<div align="center">
+
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&duration=2800&pause=1000&color=00F7FF&center=true&vCenter=true&multiline=false&repeat=true&width=700&height=45&lines=Silent+Thunder+Developer;AI+System+Builder;Consistent+Daily+Coding;Next+to+Learn+For+Your+Future" />
+
+</div>
+
+<br/>
+
+<!-- ═══════════════════ TECH STACK ROW ═══════════════════ -->
+
+<div align="center">
+
+<img src="https://skillicons.dev/icons?i=python,java,js,ts,react,nodejs,html,css,git,github,linux,vscode&theme=dark" />
+
+</div>
+
+<br/>
 
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
 
 <br/>
 
-<!-- ═══════════════════ AI ROBOT CODING ANIMATION ═══════════════════ -->
+<!-- ═══════════════════ HACKER TERMINAL — ABOUT ═══════════════════ -->
 
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/Potential17/Potential17/master/user%20(2).gif" width="280" />
-
-</div>
-
-<br/>
-
-<!-- ═══════════════════ HACKER TERMINAL — ABOUT ME ═══════════════════ -->
-
-<div align="center">
-
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&duration=3000&pause=1000&color=00FF41&center=true&vCenter=true&width=700&lines=%24+developer.load_profile();%24+initializing+skills...;%24+loading+projects...;%24+system+ready+%E2%9C%94" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=18&duration=2000&pause=600&color=00FF41&center=true&vCenter=true&multiline=false&repeat=true&width=600&height=35&lines=%24+developer.load_profile();%24+initializing+systems...;%24+loading+modules...;%24+system+ready+%E2%9C%94" />
 
 </div>
 
@@ -48,17 +48,16 @@
 
 ```js
 // ╔═══════════════════════════════════════════════════════════╗
-// ║              🔒 SYSTEM ACCESS — AUTHORIZED               ║
+// ║                SYSTEM ACCESS — AUTHORIZED                ║
 // ╚═══════════════════════════════════════════════════════════╝
 
 const developer = {
     name       : "Mathiyazhagan NTL",
-    alias      : "Silent Thunder ⚡",
+    alias      : "Silent Thunder",
     role       : "Developer | AI Learner | Cyberpunk Builder",
-    location   : "Coimbatore, India 🇮🇳",
+    location   : "Coimbatore, India",
     focus      : ["Artificial Intelligence", "Automation", "Smart Systems"],
     mission    : "Next to Learn for Your Future",
-    status     : "Always Coding 🔥",
 
     skills: {
         languages  : ["Python", "Java", "JavaScript", "TypeScript"],
@@ -68,11 +67,11 @@ const developer = {
         exploring  : ["AI/ML", "Deep Learning", "Neural Networks"]
     },
 
-    currentProject: "Building Intelligent Systems",
-    funFact       : "I code like a hacker, think like an architect"
+    currentWork : "Building Intelligent Systems",
+    dailyHabit  : "Consistent Coding"
 };
 
-developer.init(); // ⚡ System Online
+developer.init(); // System Online
 ```
 
 <br/>
@@ -81,9 +80,9 @@ developer.init(); // ⚡ System Online
 
 <br/>
 
-<!-- ═══════════════════ LIVE CONTRIBUTION STREAK ═══════════════════ -->
+<!-- ═══════════════════ LIVE STREAK ═══════════════════ -->
 
-<h2 align="center">🔥 Live Contribution Streak</h2>
+<h2 align="center">Contribution Streak</h2>
 
 <div align="center">
 
@@ -95,14 +94,14 @@ developer.init(); // ⚡ System Online
 
 <!-- ═══════════════════ CONTRIBUTION SNAKE ═══════════════════ -->
 
-<h2 align="center">🐍 Contribution Activity Snake</h2>
+<h2 align="center">Contribution Snake</h2>
 
 <div align="center">
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/MathiyazhaganNTL/MathiyazhaganNTL/output/github-contribution-grid-snake-dark.svg" />
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/MathiyazhaganNTL/MathiyazhaganNTL/output/github-contribution-grid-snake.svg" />
-  <img alt="snake eating contributions" src="https://raw.githubusercontent.com/MathiyazhaganNTL/MathiyazhaganNTL/output/github-contribution-grid-snake-dark.svg" width="100%" />
+  <img alt="contribution snake animation" src="https://raw.githubusercontent.com/MathiyazhaganNTL/MathiyazhaganNTL/output/github-contribution-grid-snake-dark.svg" width="100%" />
 </picture>
 
 </div>
@@ -113,9 +112,9 @@ developer.init(); // ⚡ System Online
 
 <br/>
 
-<!-- ═══════════════════ 3D GITHUB STATS DASHBOARD ═══════════════════ -->
+<!-- ═══════════════════ STATS DASHBOARD ═══════════════════ -->
 
-<h2 align="center">📊 Developer Activity Dashboard</h2>
+<h2 align="center">Developer Analytics</h2>
 
 <div align="center">
 
@@ -131,76 +130,7 @@ developer.init(); // ⚡ System Online
 
 <div align="center">
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=MathiyazhaganNTL&bg_color=0D1117&color=00F7FF&line=00F7FF&point=FFFFFF&area_color=0D1117&area=true&hide_border=true&custom_title=⚡%20Contribution%20Activity%20Graph" width="95%"/>
-
-</div>
-
-<br/>
-
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
-
-<br/>
-
-<!-- ═══════════════════ TECHNOLOGY STACK ═══════════════════ -->
-
-<h2 align="center">🧠 Technology Arsenal</h2>
-
-<div align="center">
-
-<table>
-<tr>
-<td align="center" width="140">
-<img src="https://skillicons.dev/icons?i=python" width="48" height="48" alt="Python" />
-<br><b>Python</b>
-</td>
-<td align="center" width="140">
-<img src="https://skillicons.dev/icons?i=java" width="48" height="48" alt="Java" />
-<br><b>Java</b>
-</td>
-<td align="center" width="140">
-<img src="https://skillicons.dev/icons?i=js" width="48" height="48" alt="JavaScript" />
-<br><b>JavaScript</b>
-</td>
-<td align="center" width="140">
-<img src="https://skillicons.dev/icons?i=ts" width="48" height="48" alt="TypeScript" />
-<br><b>TypeScript</b>
-</td>
-<td align="center" width="140">
-<img src="https://skillicons.dev/icons?i=react" width="48" height="48" alt="React" />
-<br><b>React</b>
-</td>
-<td align="center" width="140">
-<img src="https://skillicons.dev/icons?i=nodejs" width="48" height="48" alt="Node.js" />
-<br><b>Node.js</b>
-</td>
-</tr>
-<tr>
-<td align="center" width="140">
-<img src="https://skillicons.dev/icons?i=html" width="48" height="48" alt="HTML5" />
-<br><b>HTML5</b>
-</td>
-<td align="center" width="140">
-<img src="https://skillicons.dev/icons?i=css" width="48" height="48" alt="CSS3" />
-<br><b>CSS3</b>
-</td>
-<td align="center" width="140">
-<img src="https://skillicons.dev/icons?i=git" width="48" height="48" alt="Git" />
-<br><b>Git</b>
-</td>
-<td align="center" width="140">
-<img src="https://skillicons.dev/icons?i=github" width="48" height="48" alt="GitHub" />
-<br><b>GitHub</b>
-</td>
-<td align="center" width="140">
-<img src="https://skillicons.dev/icons?i=linux" width="48" height="48" alt="Linux" />
-<br><b>Linux</b>
-</td>
-<td align="center" width="140">
-<img src="https://skillicons.dev/icons?i=vscode" width="48" height="48" alt="VS Code" />
-<br><b>VS Code</b>
-</td>
-</tr>
-</table>
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=MathiyazhaganNTL&bg_color=0D1117&color=00F7FF&line=00F7FF&point=FFFFFF&area_color=0D1117&area=true&hide_border=true&custom_title=Contribution%20Activity%20Graph" width="95%"/>
 
 </div>
 
@@ -212,7 +142,7 @@ developer.init(); // ⚡ System Online
 
 <!-- ═══════════════════ FEATURED PROJECTS ═══════════════════ -->
 
-<h2 align="center">🚀 Featured Projects</h2>
+<h2 align="center">Featured Projects</h2>
 
 <div align="center">
 
@@ -244,7 +174,7 @@ developer.init(); // ⚡ System Online
 
 <!-- ═══════════════════ GITHUB TROPHIES ═══════════════════ -->
 
-<h2 align="center">🏆 GitHub Achievements</h2>
+<h2 align="center">GitHub Achievements</h2>
 
 <div align="center">
 
@@ -258,7 +188,7 @@ developer.init(); // ⚡ System Online
 
 <br/>
 
-<!-- ═══════════════════ PROFILE VISITORS ═══════════════════ -->
+<!-- ═══════════════════ VISITOR STATS ═══════════════════ -->
 
 <div align="center">
 
@@ -274,7 +204,7 @@ developer.init(); // ⚡ System Online
 
 <!-- ═══════════════════ CONNECT ═══════════════════ -->
 
-<h2 align="center">🌐 Connect With Me</h2>
+<h2 align="center">Connect</h2>
 
 <div align="center">
 
@@ -309,7 +239,7 @@ developer.init(); // ⚡ System Online
 ```
 ╔══════════════════════════════════════════════════════════════╗
 ║                                                              ║
-║        ⚡  " Next to Learn for Your Future "  ⚡             ║
+║          " Next to Learn for Your Future "                   ║
 ║                                                              ║
 ║             — Mathiyazhagan NTL | Silent Thunder             ║
 ║                                                              ║
@@ -320,8 +250,6 @@ developer.init(); // ⚡ System Online
 
 <br/>
 
-<!-- ═══════════════════ FOOTER WAVE ═══════════════════ -->
+<!-- ═══════════════════ FOOTER ═══════════════════ -->
 
-<img src="https://capsule-render.vercel.app/api?type=waving&height=150&color=0:0D1117,50:00F7FF,100:0D1117&section=footer" width="100%"/>
-
-<!-- ═══════════════════ END ═══════════════════ -->
+<img src="https://capsule-render.vercel.app/api?type=waving&height=120&color=0:0D1117,50:00F7FF,100:0D1117&section=footer" width="100%"/>
