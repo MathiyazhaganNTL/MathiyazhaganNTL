@@ -16,7 +16,7 @@
 
 <div align="center">
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&duration=2800&pause=1000&color=00F7FF&center=true&vCenter=true&multiline=false&repeat=true&width=700&height=45&lines=Silent+Thunder+Developer;AI+System+Builder;Consistent+Daily+Coding;Next+to+Learn+For+Your+Future" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&duration=2800&pause=1000&color=FF0000&center=true&vCenter=true&multiline=false&repeat=true&width=700&height=45&lines=Silent+Thunder+Developer;AI+System+Builder;Consistent+Daily+Coding;Next+to+Learn+For+Your+Future" />
 
 </div>
 
@@ -32,7 +32,7 @@
 
 <br/>
 
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
+<img src="https://capsule-render.vercel.app/api?type=waving&height=30&color=0:0D1117,50:FF0000,100:0D1117&section=header" width="100%">
 
 <br/>
 
@@ -40,7 +40,7 @@
 
 <div align="center">
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=18&duration=2000&pause=600&color=00FF41&center=true&vCenter=true&multiline=false&repeat=true&width=600&height=35&lines=%24+developer.load_profile();%24+initializing+systems...;%24+loading+modules...;%24+system+ready+%E2%9C%94" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=18&duration=2000&pause=600&color=FF0000&center=true&vCenter=true&multiline=false&repeat=true&width=600&height=35&lines=%24+developer.load_profile();%24+initializing+systems...;%24+loading+modules...;%24+system+ready+%E2%9C%94" />
 
 </div>
 
@@ -76,7 +76,7 @@ developer.init(); // System Online
 
 <br/>
 
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
+<img src="https://capsule-render.vercel.app/api?type=waving&height=30&color=0:0D1117,50:FF0000,100:0D1117&section=header" width="100%">
 
 <br/>
 
@@ -86,7 +86,7 @@ developer.init(); // System Online
 
 <div align="center">
 
-<img src="https://github-readme-streak-stats.herokuapp.com?user=MathiyazhaganNTL&theme=tokyonight&hide_border=true&background=0D1117&ring=00F7FF&fire=FF6600&currStreakLabel=00F7FF&sideLabels=00F7FF&currStreakNum=FFFFFF&sideNums=FFFFFF&dates=555555&stroke=00F7FF" width="700"/>
+<img src="https://github-readme-streak-stats.herokuapp.com?user=MathiyazhaganNTL&theme=tokyonight&hide_border=true&background=0D1117&ring=FF0000&fire=FF0000&currStreakLabel=FF0000&sideLabels=FF0000&currStreakNum=FFFFFF&sideNums=FFFFFF&dates=555555&stroke=FF0000" width="700"/>
 
 </div>
 
@@ -108,7 +108,7 @@ developer.init(); // System Online
 
 <br/>
 
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
+<img src="https://capsule-render.vercel.app/api?type=waving&height=30&color=0:0D1117,50:FF0000,100:0D1117&section=header" width="100%">
 
 <br/>
 
@@ -118,9 +118,9 @@ developer.init(); // System Online
 
 <div align="center">
 
-<img height="180" src="https://github-readme-stats.vercel.app/api?username=MathiyazhaganNTL&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=00F7FF&icon_color=00F7FF&text_color=FFFFFF&ring_color=00F7FF" />
+<img height="180" src="https://github-readme-stats.vercel.app/api?username=MathiyazhaganNTL&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=FF0000&icon_color=FF0000&text_color=FFFFFF&ring_color=FF0000" />
 &nbsp;&nbsp;
-<img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=MathiyazhaganNTL&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=00F7FF&text_color=FFFFFF" />
+<img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=MathiyazhaganNTL&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=FF0000&text_color=FFFFFF" />
 
 </div>
 
@@ -130,13 +130,13 @@ developer.init(); // System Online
 
 <div align="center">
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=MathiyazhaganNTL&bg_color=0D1117&color=00F7FF&line=00F7FF&point=FFFFFF&area_color=0D1117&area=true&hide_border=true&custom_title=Contribution%20Activity%20Graph" width="95%"/>
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=MathiyazhaganNTL&bg_color=0D1117&color=FF0000&line=FF0000&point=FFFFFF&area_color=0D1117&area=true&hide_border=true&custom_title=Contribution%20Activity%20Graph" width="95%"/>
 
 </div>
 
 <br/>
 
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
+<img src="https://capsule-render.vercel.app/api?type=waving&height=30&color=0:0D1117,50:FF0000,100:0D1117&section=header" width="100%">
 
 <br/>
 
@@ -147,28 +147,28 @@ developer.init(); // System Online
 <div align="center">
 
 <a href="https://github.com/MathiyazhaganNTL/NTL_PLANTS">
-<img src="https://github-readme-stats.vercel.app/api/pin/?username=MathiyazhaganNTL&repo=NTL_PLANTS&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=00F7FF&icon_color=00F7FF&text_color=AAAAAA" width="400" />
+<img src="https://github-readme-stats.vercel.app/api/pin/?username=MathiyazhaganNTL&repo=NTL_PLANTS&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=FF0000&icon_color=FF0000&text_color=AAAAAA" width="400" />
 </a>
 &nbsp;&nbsp;
 <a href="https://github.com/MathiyazhaganNTL/Daily_Leetcode">
-<img src="https://github-readme-stats.vercel.app/api/pin/?username=MathiyazhaganNTL&repo=Daily_Leetcode&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=00F7FF&icon_color=00F7FF&text_color=AAAAAA" width="400" />
+<img src="https://github-readme-stats.vercel.app/api/pin/?username=MathiyazhaganNTL&repo=Daily_Leetcode&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=FF0000&icon_color=FF0000&text_color=AAAAAA" width="400" />
 </a>
 
 <br/><br/>
 
 <a href="https://github.com/MathiyazhaganNTL/Learning_NTL">
-<img src="https://github-readme-stats.vercel.app/api/pin/?username=MathiyazhaganNTL&repo=Learning_NTL&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=00F7FF&icon_color=00F7FF&text_color=AAAAAA" width="400" />
+<img src="https://github-readme-stats.vercel.app/api/pin/?username=MathiyazhaganNTL&repo=Learning_NTL&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=FF0000&icon_color=FF0000&text_color=AAAAAA" width="400" />
 </a>
 &nbsp;&nbsp;
 <a href="https://github.com/MathiyazhaganNTL/MathiyazhaganNTL">
-<img src="https://github-readme-stats.vercel.app/api/pin/?username=MathiyazhaganNTL&repo=MathiyazhaganNTL&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=00F7FF&icon_color=00F7FF&text_color=AAAAAA" width="400" />
+<img src="https://github-readme-stats.vercel.app/api/pin/?username=MathiyazhaganNTL&repo=MathiyazhaganNTL&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=FF0000&icon_color=FF0000&text_color=AAAAAA" width="400" />
 </a>
 
 </div>
 
 <br/>
 
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
+<img src="https://capsule-render.vercel.app/api?type=waving&height=30&color=0:0D1117,50:FF0000,100:0D1117&section=header" width="100%">
 
 <br/>
 
@@ -184,7 +184,7 @@ developer.init(); // System Online
 
 <br/>
 
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
+<img src="https://capsule-render.vercel.app/api?type=waving&height=30&color=0:0D1117,50:FF0000,100:0D1117&section=header" width="100%">
 
 <br/>
 
@@ -192,11 +192,11 @@ developer.init(); // System Online
 
 <div align="center">
 
-<img src="https://komarev.com/ghpvc/?username=MathiyazhaganNTL&label=PROFILE+VISITORS&color=00F7FF&style=for-the-badge&labelColor=0D1117"/>
+<img src="https://komarev.com/ghpvc/?username=MathiyazhaganNTL&label=PROFILE+VISITORS&color=FF0000&style=for-the-badge&labelColor=0D1117"/>
 &nbsp;&nbsp;
-<img src="https://img.shields.io/github/followers/MathiyazhaganNTL?label=FOLLOWERS&color=00F7FF&style=for-the-badge&labelColor=0D1117&logo=github"/>
+<img src="https://img.shields.io/github/followers/MathiyazhaganNTL?label=FOLLOWERS&color=FF0000&style=for-the-badge&labelColor=0D1117&logo=github"/>
 &nbsp;&nbsp;
-<img src="https://img.shields.io/github/stars/MathiyazhaganNTL?label=TOTAL%20STARS&color=00F7FF&style=for-the-badge&labelColor=0D1117&logo=github"/>
+<img src="https://img.shields.io/github/stars/MathiyazhaganNTL?label=TOTAL%20STARS&color=FF0000&style=for-the-badge&labelColor=0D1117&logo=github"/>
 
 </div>
 
@@ -217,7 +217,7 @@ developer.init(); // System Online
 </a>
 &nbsp;
 <a href="https://mathintlportfolio.dev/">
-<img src="https://img.shields.io/badge/Portfolio-00F7FF?style=for-the-badge&logo=firefox&logoColor=0D1117" />
+<img src="https://img.shields.io/badge/Portfolio-FF0000?style=for-the-badge&logo=firefox&logoColor=0D1117" />
 </a>
 &nbsp;
 <a href="https://github.com/MathiyazhaganNTL">
@@ -228,7 +228,7 @@ developer.init(); // System Online
 
 <br/>
 
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
+<img src="https://capsule-render.vercel.app/api?type=waving&height=30&color=0:0D1117,50:FF0000,100:0D1117&section=header" width="100%">
 
 <br/>
 
@@ -252,4 +252,4 @@ developer.init(); // System Online
 
 <!-- ═══════════════════ FOOTER ═══════════════════ -->
 
-<img src="https://capsule-render.vercel.app/api?type=waving&height=120&color=0:0D1117,50:00F7FF,100:0D1117&section=footer" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&height=120&color=0:0D1117,50:FF0000,100:0D1117&section=footer" width="100%"/>
