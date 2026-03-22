@@ -1,5 +1,5 @@
 import {
-  LayoutDashboard, Send, Lightbulb, BookOpen, BarChart3, Activity, Settings,
+  LayoutDashboard, Send, BrainCircuit, BookOpen, BarChart3, Activity, Settings,
 } from "lucide-react";
 import { NavLink } from "@/components/NavLink";
 import { useLocation } from "react-router-dom";
@@ -11,7 +11,7 @@ import {
 const items = [
   { title: "Dashboard", url: "/", icon: LayoutDashboard },
   { title: "Submit Observation", url: "/submit", icon: Send },
-  { title: "AI Insights", url: "/insights", icon: Lightbulb },
+  { title: "AI Insights", url: "/insights", icon: BrainCircuit },
   { title: "Activity Library", url: "/activities", icon: BookOpen },
   { title: "Analytics", url: "/analytics", icon: BarChart3 },
   { title: "Model Status", url: "/status", icon: Activity },
@@ -28,9 +28,6 @@ export function AppSidebar() {
       <SidebarContent className="pt-6">
         <div className={`px-6 mb-8 ${collapsed ? "px-2" : ""}`}>
           <div className="flex items-center gap-3">
-            <div className="h-10 w-10 rounded-2xl bg-primary flex items-center justify-center flex-shrink-0">
-              <Lightbulb className="h-5 w-5 text-primary-foreground" />
-            </div>
             {!collapsed && (
               <div>
                 <h1 className="font-display text-lg font-bold tracking-tight text-foreground">EduAI</h1>
