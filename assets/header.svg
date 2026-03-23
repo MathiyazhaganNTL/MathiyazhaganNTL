@@ -203,6 +203,41 @@
     @keyframes typeLine4 { 0%, 40% { opacity: 0; } 45%, 90% { opacity: 0.8; } 95%, 100% { opacity: 0; } }
     @keyframes typeLine5 { 0%, 50% { opacity: 0; } 55%, 90% { opacity: 0.8; } 95%, 100% { opacity: 0; } }
 
+    /* â•â•â• TERMINAL BOOT SEQUENCE ANIMATIONS â•â•â• */
+    @keyframes bootText {
+      0%, 5% { opacity: 0; transform: translateX(-10px); }
+      10%, 90% { opacity: 1; transform: translateX(0); }
+      95%, 100% { opacity: 0.9; }
+    }
+
+    @keyframes bootPrompt {
+      0%, 15% { opacity: 0; }
+      20%, 90% { opacity: 1; }
+      95%, 100% { opacity: 0.8; }
+    }
+
+    @keyframes bootTyping {
+      0%, 30% { opacity: 0; }
+      35%, 90% { opacity: 1; }
+      95%, 100% { opacity: 0.8; }
+    }
+
+    @keyframes textGlow {
+      0%, 100% { filter: url(#glowText); fill: #FF0000; }
+      50% { filter: url(#glowNeon); fill: #FF4444; }
+    }
+
+    @keyframes cursorMove {
+      0%, 15% { opacity: 0; }
+      16%, 18% { opacity: 1; }
+      19%, 100% { opacity: 0; }
+    }
+
+    @keyframes bootGlow {
+      0%, 100% { opacity: 0.7; }
+      50% { opacity: 1; }
+    }
+
     /* â•â•â• ELEMENT STYLES â•â•â• */
     .breathe { animation: breathe 4s ease-in-out infinite; }
     .flicker { animation: neonFlicker 4s ease-in-out infinite; }
@@ -219,6 +254,14 @@
     .type-line-3 { animation: typeLine3 15s infinite; }
     .type-line-4 { animation: typeLine4 15s infinite; }
     .type-line-5 { animation: typeLine5 15s infinite; }
+
+    /* â•â•â• TERMINAL BOOT CLASSES â•â•â• */
+    .boot-text { animation: bootText 12s ease-out infinite; }
+    .boot-prompt { animation: bootPrompt 12s ease-out infinite; }
+    .boot-typing { animation: bootTyping 12s ease-out infinite; }
+    .text-glow { animation: textGlow 3s ease-in-out infinite; }
+    .boot-cursor { animation: cursorMove 12s step-end infinite; }
+    .boot-glow { animation: bootGlow 2s ease-in-out infinite; }
   </style>
 
   <!-- â•â•â• BACKGROUND LAYERS â•â•â• -->
@@ -318,40 +361,53 @@
   <!-- â•â•â• VERTICAL DIVIDER â•â•â• -->
   <line x1="380" y1="70" x2="380" y2="330" stroke="url(#lineGrad)" stroke-width="0.6" class="pulse-anim"/>
 
-  <!-- â•â•â• RIGHT: TEXT CONTENT â•â•â• -->
+  <!-- â•â•â• RIGHT: TERMINAL BOOT SEQUENCE â•â•â• -->
 
-  <!-- Glitch layers for title -->
-  <text x="780" y="135" text-anchor="middle" font-family="'Fira Code', 'Courier New', monospace" font-size="48" font-weight="bold" fill="#FF0040" letter-spacing="4" class="glitch" opacity="0.8">
-    MATHIYAZHAGAN
-  </text>
-  <text x="780" y="135" text-anchor="middle" font-family="'Fira Code', 'Courier New', monospace" font-size="48" font-weight="bold" fill="#FF0040" letter-spacing="4" class="glitch-red" filter="url(#glitch)">
-    MATHIYAZHAGAN
-  </text>
-
-  <!-- Main title -->
-  <text x="780" y="135" text-anchor="middle" font-family="'Fira Code', 'Courier New', monospace" font-size="48" font-weight="bold" fill="url(#nameGrad)" filter="url(#glowNeon)" letter-spacing="4">
-    MATHIYAZHAGAN
-  </text>
-
-  <!-- Subtitle with typing effect -->
-  <g>
-    <text x="780" y="180" text-anchor="middle" font-family="'Fira Code', 'Courier New', monospace" font-size="15" fill="#FF4080" filter="url(#glowText)" letter-spacing="6" class="flicker">
-      SILENT THUNDER
+  <!-- â•â•â• LINE 1: SYSTEM ACCESS GRANTED â•â•â• -->
+  <g class="boot-text">
+    <!-- Glitch layer 1 -->
+    <text x="780" y="120" text-anchor="middle" font-family="'Fira Code', 'Courier New', monospace" font-size="32" font-weight="bold" fill="#FF0000" letter-spacing="8" class="glitch" opacity="0.6" filter="url(#glowNeon)">
+      SYSTEM ACCESS GRANTED
     </text>
-    <text x="780" y="205" text-anchor="middle" font-family="'Fira Code', 'Courier New', monospace" font-size="14" fill="#FF2060" filter="url(#glowText)" letter-spacing="8" class="flicker">
-      DEVELOPER
+    <!-- Main text with glow -->
+    <text x="780" y="120" text-anchor="middle" font-family="'Fira Code', 'Courier New', monospace" font-size="32" font-weight="bold" fill="#FF0000" letter-spacing="8" class="text-glow" filter="url(#glowNeon)">
+      SYSTEM ACCESS GRANTED
     </text>
-    <!-- Blinking cursor -->
-    <rect x="880" y="192" width="10" height="16" fill="#FF0040" class="cursor-blink" opacity="0.7"/>
+  </g>
+
+  <!-- â•â•â• LINE 2: AUTHORIZATION: SUCCESS â•â•â• -->
+  <g class="boot-prompt">
+    <text x="780" y="165" text-anchor="middle" font-family="'Fira Code', 'Courier New', monospace" font-size="18" fill="#FF0040" letter-spacing="4" class="boot-glow" filter="url(#glowText)">
+      &gt; AUTHORIZATION: SUCCESS
+    </text>
+    <!-- Cursor for line 2 -->
+    <rect x="985" y="152" width="8" height="14" fill="#FF0000" class="boot-cursor" opacity="0.8"/>
+  </g>
+
+  <!-- â•â•â• LINE 3: INITIALIZING DEV PROFILE â•â•â• -->
+  <g class="boot-typing">
+    <text x="780" y="205" text-anchor="middle" font-family="'Fira Code', 'Courier New', monospace" font-size="18" fill="#CC0000" letter-spacing="4" filter="url(#glowText)">
+      &gt; INITIALIZING DEV PROFILE
+    </text>
+    <!-- Animated dots for typing effect -->
+    <circle cx="990" cy="198" r="2" fill="#FF0000" class="dot-pulse"/>
+    <circle cx="1000" cy="198" r="2" fill="#FF0000" class="dot-pulse">
+      <animate attributeName="opacity" values="0.3;1;0.3" dur="1s" repeatCount="indefinite" begin="0.3s"/>
+    </circle>
+    <circle cx="1010" cy="198" r="2" fill="#FF0000" class="dot-pulse">
+      <animate attributeName="opacity" values="0.3;1;0.3" dur="1s" repeatCount="indefinite" begin="0.6s"/>
+    </circle>
   </g>
 
   <!-- Decorative lines -->
-  <line x1="520" y1="225" x2="1040" y2="225" stroke="url(#lineGrad)" stroke-width="1" class="pulse-anim"/>
+  <line x1="500" y1="235" x2="1060" y2="235" stroke="url(#lineGrad)" stroke-width="1" class="pulse-anim"/>
 
-  <!-- Tagline -->
-  <text x="780" y="260" text-anchor="middle" font-family="'Fira Code', 'Courier New', monospace" font-size="12" fill="#FF0040" letter-spacing="4" opacity="0.7" class="flicker">
-    NEXT TO LEARN FOR YOUR FUTURE
-  </text>
+  <!-- â•â•â• SYSTEM STATUS â•â•â• -->
+  <g>
+    <text x="780" y="270" text-anchor="middle" font-family="'Fira Code', 'Courier New', monospace" font-size="11" fill="#8B0000" letter-spacing="3" opacity="0.6" class="flicker">
+      NTL CYBERPUNK SYSTEM v2026.03
+    </text>
+  </g>
 
   <!-- â•â•â• STATUS PANELS â•â•â• -->
 
