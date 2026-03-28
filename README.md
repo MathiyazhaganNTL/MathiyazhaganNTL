@@ -48,18 +48,33 @@
 <br/>
 
 ```js
-// ╔═══════════════════════════════════════════════════════════╗
-// ║                SYSTEM ACCESS — AUTHORIZED                ║
-// ╚═══════════════════════════════════════════════════════════╝
+// ╔═══════════════════════════════════════════════════════════════════════════╗
+// ║  ▓▓▓  SECURE TERMINAL v2026.03  ▓▓▓                                       ║
+// ║  ══════════════════════════════════════════════════════════════════════   ║
+// ║  [■] STATUS: ACTIVE     [■] ENCRYPTION: AES-256     [■] LEVEL: ROOT       ║
+// ║                                                                           ║
+// ║  ████████╗ █████╗ ██████╗  ██████╗ ███████╗████████╗    ██╗   ██╗██████╗  ║
+// ║  ╚══██╔══╝██╔══██╗██╔══██╗██╔════╝ ██╔════╝╚══██╔══╝    ██║   ██║██╔══██╗ ║
+// ║     ██║   ███████║██████╔╝██║  ███╗█████╗     ██║       ██║   ██║██████╔╝ ║
+// ║     ██║   ██╔══██║██╔══██╗██║   ██║██╔══╝     ██║       ██║   ██║██╔═══╝  ║
+// ║     ██║   ██║  ██║██║  ██║╚██████╔╝███████╗   ██║       ╚██████╔╝██║      ║
+// ║     ╚═╝   ╚═╝  ╚═╝╚═╝  ╚═╝ ╚═════╝ ╚══════╝   ╚═╝        ╚═════╝ ╚═╝      ║
+// ║                                                                           ║
+// ║  ▶ ACCESS GRANTED ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ [AUTHORIZED]   ║
+// ╚═══════════════════════════════════════════════════════════════════════════╝
 
 const developer = {
+    // ═══════════════ IDENTITY MODULE ═══════════════
     name       : "Mathiyazhagan NTL",
     alias      : "Silent Thunder",
     role       : "Developer | AI Learner | Cyberpunk Builder",
     location   : "Coimbatore, India",
+    
+    // ═══════════════ MISSION DIRECTIVE ═══════════════
     focus      : ["Artificial Intelligence", "Automation", "Smart Systems"],
     mission    : "Next to Learn for Your Future",
 
+    // ═══════════════ SKILL MATRIX ═══════════════
     skills: {
         languages  : ["Python", "Java", "JavaScript", "TypeScript"],
         frontend   : ["React", "HTML5", "CSS3"],
@@ -68,11 +83,15 @@ const developer = {
         exploring  : ["AI/ML", "Deep Learning", "Neural Networks"]
     },
 
+    // ═══════════════ CURRENT OPERATIONS ═══════════════
     currentWork : "Building Intelligent Systems",
     dailyHabit  : "Consistent Coding"
 };
 
-developer.init(); // System Online
+// ▶ Initializing Neural Systems...
+// ▶ Loading Developer Profile...
+// ▶ Establishing Secure Connection...
+developer.init(); // [✓] SYSTEM ONLINE — ALL MODULES ACTIVE
 ```
 
 <br/>
