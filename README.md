@@ -47,52 +47,13 @@
 
 <br/>
 
-```js
-// ╔═══════════════════════════════════════════════════════════════════════════╗
-// ║  ▓▓▓  SECURE TERMINAL v2026.03  ▓▓▓                                       ║
-// ║  ══════════════════════════════════════════════════════════════════════   ║
-// ║  [■] STATUS: ACTIVE     [■] ENCRYPTION: AES-256     [■] LEVEL: ROOT       ║
-// ║                                                                           ║
-// ║  ████████╗ █████╗ ██████╗  ██████╗ ███████╗████████╗    ██╗   ██╗██████╗  ║
-// ║  ╚══██╔══╝██╔══██╗██╔══██╗██╔════╝ ██╔════╝╚══██╔══╝    ██║   ██║██╔══██╗ ║
-// ║     ██║   ███████║██████╔╝██║  ███╗█████╗     ██║       ██║   ██║██████╔╝ ║
-// ║     ██║   ██╔══██║██╔══██╗██║   ██║██╔══╝     ██║       ██║   ██║██╔═══╝  ║
-// ║     ██║   ██║  ██║██║  ██║╚██████╔╝███████╗   ██║       ╚██████╔╝██║      ║
-// ║     ╚═╝   ╚═╝  ╚═╝╚═╝  ╚═╝ ╚═════╝ ╚══════╝   ╚═╝        ╚═════╝ ╚═╝      ║
-// ║                                                                           ║
-// ║  ▶ ACCESS GRANTED ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ [AUTHORIZED]   ║
-// ╚═══════════════════════════════════════════════════════════════════════════╝
+<!-- ═══════════════════ ANIMATED TERMINAL ═══════════════════ -->
 
-const developer = {
-    // ═══════════════ IDENTITY MODULE ═══════════════
-    name       : "Mathiyazhagan NTL",
-    alias      : "Silent Thunder",
-    role       : "Developer | AI Learner | Cyberpunk Builder",
-    location   : "Coimbatore, India",
-    
-    // ═══════════════ MISSION DIRECTIVE ═══════════════
-    focus      : ["Artificial Intelligence", "Automation", "Smart Systems"],
-    mission    : "Next to Learn for Your Future",
+<div align="center">
 
-    // ═══════════════ SKILL MATRIX ═══════════════
-    skills: {
-        languages  : ["Python", "Java", "JavaScript", "TypeScript"],
-        frontend   : ["React", "HTML5", "CSS3"],
-        backend    : ["Node.js", "Express"],
-        tools      : ["Git", "GitHub", "VS Code", "Linux"],
-        exploring  : ["AI/ML", "Deep Learning", "Neural Networks"]
-    },
+<img src="./assets/terminal.svg" width="100%" alt="Cyberpunk Terminal — Developer Profile"/>
 
-    // ═══════════════ CURRENT OPERATIONS ═══════════════
-    currentWork : "Building Intelligent Systems",
-    dailyHabit  : "Consistent Coding"
-};
-
-// ▶ Initializing Neural Systems...
-// ▶ Loading Developer Profile...
-// ▶ Establishing Secure Connection...
-developer.init(); // [✓] SYSTEM ONLINE — ALL MODULES ACTIVE
-```
+</div>
 
 <br/>
 
