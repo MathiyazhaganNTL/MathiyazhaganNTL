@@ -236,7 +236,7 @@
 <img src="https://capsule-render.vercel.app/api?type=waving&height=120&color=0:0D1117,50:FF0000,100:0D1117&section=footer" width="100%"/>
 
 <div align="right">
-  <a href="https://mathiyazhaganntl.github.io/MathiyazhaganNTL/docs/">
+  <a href="https://mathiyazhaganntl.github.io/">
     <img src="https://img.shields.io/badge/🤖_Chat_with_my_AI_Agent-FF0000?style=for-the-badge&logo=anthropic&logoColor=white" alt="Chat with Mathi's AI Agent">
   </a>
 </div>
