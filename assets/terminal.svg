@@ -1,0 +1,412 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 520" width="900" height="520">
+  <defs>
+    <!-- Gradient Definitions -->
+    <linearGradient id="redWineGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#8B0000">
+        <animate attributeName="stop-color" values="#8B0000;#DC143C;#8B0000" dur="3s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="50%" stop-color="#FF0040"/>
+      <stop offset="100%" stop-color="#C41E3A">
+        <animate attributeName="stop-color" values="#C41E3A;#FF0040;#C41E3A" dur="3s" repeatCount="indefinite"/>
+      </stop>
+    </linearGradient>
+
+    <linearGradient id="neonRedGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#FF0040" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#FF0040" stop-opacity="1"/>
+      <stop offset="100%" stop-color="#FF0040" stop-opacity="0"/>
+    </linearGradient>
+
+    <linearGradient id="borderGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FF0040">
+        <animate attributeName="stop-color" values="#FF0040;#8B0000;#FF0040" dur="2s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="100%" stop-color="#8B0000">
+        <animate attributeName="stop-color" values="#8B0000;#FF0040;#8B0000" dur="2s" repeatCount="indefinite"/>
+      </stop>
+    </linearGradient>
+
+    <!-- Glow Filters -->
+    <filter id="glowRed" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-color="#FF0040" flood-opacity="0.8" result="color"/>
+      <feComposite in="color" in2="blur" operator="in" result="glow"/>
+      <feMerge>
+        <feMergeNode in="glow"/>
+        <feMergeNode in="glow"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <filter id="glowWine" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feFlood flood-color="#C41E3A" flood-opacity="0.6" result="color"/>
+      <feComposite in="color" in2="blur" operator="in" result="glow"/>
+      <feMerge>
+        <feMergeNode in="glow"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <filter id="glowGreen" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="2" result="blur"/>
+      <feFlood flood-color="#00FF00" flood-opacity="0.8" result="color"/>
+      <feComposite in="color" in2="blur" operator="in" result="glow"/>
+      <feMerge>
+        <feMergeNode in="glow"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <filter id="glowCyan" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="2" result="blur"/>
+      <feFlood flood-color="#00FFFF" flood-opacity="0.7" result="color"/>
+      <feComposite in="color" in2="blur" operator="in" result="glow"/>
+      <feMerge>
+        <feMergeNode in="glow"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <filter id="glowYellow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="2" result="blur"/>
+      <feFlood flood-color="#FFD700" flood-opacity="0.7" result="color"/>
+      <feComposite in="color" in2="blur" operator="in" result="glow"/>
+      <feMerge>
+        <feMergeNode in="glow"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <filter id="glowPurple" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="2" result="blur"/>
+      <feFlood flood-color="#FF00FF" flood-opacity="0.6" result="color"/>
+      <feComposite in="color" in2="blur" operator="in" result="glow"/>
+      <feMerge>
+        <feMergeNode in="glow"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <!-- Scanline Pattern -->
+    <pattern id="scanlines" width="2" height="4" patternUnits="userSpaceOnUse">
+      <rect width="2" height="2" fill="rgba(255,255,255,0.02)"/>
+      <rect y="2" width="2" height="2" fill="rgba(0,0,0,0.08)"/>
+    </pattern>
+
+    <!-- Grid Pattern -->
+    <pattern id="grid" width="30" height="30" patternUnits="userSpaceOnUse">
+      <path d="M 30 0 L 0 0 0 30" fill="none" stroke="rgba(255,0,64,0.03)" stroke-width="0.5"/>
+    </pattern>
+  </defs>
+
+  <style>
+    @keyframes pulse {
+      0%, 100% { opacity: 0.6; }
+      50% { opacity: 1; }
+    }
+    @keyframes blink {
+      0%, 100% { opacity: 1; }
+      50% { opacity: 0; }
+    }
+    @keyframes glow {
+      0%, 100% { filter: url(#glowRed); }
+      50% { filter: url(#glowWine); }
+    }
+    @keyframes borderPulse {
+      0%, 100% { stroke-opacity: 0.5; }
+      50% { stroke-opacity: 1; }
+    }
+    @keyframes dash {
+      0% { stroke-dashoffset: 0; }
+      100% { stroke-dashoffset: -60; }
+    }
+    @keyframes typing1 { 0%, 5% { opacity: 0; } 10%, 100% { opacity: 1; } }
+    @keyframes typing2 { 0%, 10% { opacity: 0; } 15%, 100% { opacity: 1; } }
+    @keyframes typing3 { 0%, 15% { opacity: 0; } 20%, 100% { opacity: 1; } }
+    @keyframes typing4 { 0%, 20% { opacity: 0; } 25%, 100% { opacity: 1; } }
+    @keyframes typing5 { 0%, 25% { opacity: 0; } 30%, 100% { opacity: 1; } }
+    @keyframes typing6 { 0%, 30% { opacity: 0; } 35%, 100% { opacity: 1; } }
+    @keyframes typing7 { 0%, 35% { opacity: 0; } 40%, 100% { opacity: 1; } }
+    @keyframes typing8 { 0%, 40% { opacity: 0; } 45%, 100% { opacity: 1; } }
+    @keyframes typing9 { 0%, 45% { opacity: 0; } 50%, 100% { opacity: 1; } }
+    @keyframes typing10 { 0%, 50% { opacity: 0; } 55%, 100% { opacity: 1; } }
+    @keyframes typing11 { 0%, 55% { opacity: 0; } 60%, 100% { opacity: 1; } }
+    @keyframes typing12 { 0%, 60% { opacity: 0; } 65%, 100% { opacity: 1; } }
+    @keyframes colorShift {
+      0%, 100% { fill: #FF0040; }
+      25% { fill: #FF6B6B; }
+      50% { fill: #C41E3A; }
+      75% { fill: #FF4444; }
+    }
+    @keyframes statusBlink {
+      0%, 45%, 55%, 100% { opacity: 1; }
+      50% { opacity: 0.3; }
+    }
+    .pulse { animation: pulse 2s ease-in-out infinite; }
+    .blink { animation: blink 1s step-end infinite; }
+    .glow-anim { animation: glow 3s ease-in-out infinite; }
+    .border-pulse { animation: borderPulse 2s ease-in-out infinite; }
+    .dash-anim { animation: dash 3s linear infinite; }
+    .type1 { animation: typing1 8s ease-out infinite; }
+    .type2 { animation: typing2 8s ease-out infinite; }
+    .type3 { animation: typing3 8s ease-out infinite; }
+    .type4 { animation: typing4 8s ease-out infinite; }
+    .type5 { animation: typing5 8s ease-out infinite; }
+    .type6 { animation: typing6 8s ease-out infinite; }
+    .type7 { animation: typing7 8s ease-out infinite; }
+    .type8 { animation: typing8 8s ease-out infinite; }
+    .type9 { animation: typing9 8s ease-out infinite; }
+    .type10 { animation: typing10 8s ease-out infinite; }
+    .type11 { animation: typing11 8s ease-out infinite; }
+    .type12 { animation: typing12 8s ease-out infinite; }
+    .color-shift { animation: colorShift 4s ease-in-out infinite; }
+    .status-blink { animation: statusBlink 3s ease-in-out infinite; }
+  </style>
+
+  <!-- Background -->
+  <rect width="900" height="520" rx="10" fill="#0a0a12"/>
+  <rect width="900" height="520" rx="10" fill="url(#grid)"/>
+  <rect width="900" height="520" rx="10" fill="url(#scanlines)"/>
+
+  <!-- Animated Border -->
+  <rect x="3" y="3" width="894" height="514" rx="8" fill="none" stroke="url(#borderGrad)" stroke-width="2" class="border-pulse"/>
+  <rect x="3" y="3" width="894" height="514" rx="8" fill="none" stroke="#FF0040" stroke-width="1" stroke-dasharray="15 10" class="dash-anim" opacity="0.5"/>
+
+  <!-- Terminal Header Bar -->
+  <rect x="10" y="10" width="880" height="35" rx="5" fill="#1a0a15" stroke="#FF0040" stroke-width="0.5" opacity="0.9"/>
+  
+  <!-- Window Buttons -->
+  <circle cx="30" cy="27" r="6" fill="#FF5F56">
+    <animate attributeName="opacity" values="0.8;1;0.8" dur="2s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="50" cy="27" r="6" fill="#FFBD2E">
+    <animate attributeName="opacity" values="0.8;1;0.8" dur="2s" repeatCount="indefinite" begin="0.3s"/>
+  </circle>
+  <circle cx="70" cy="27" r="6" fill="#27C93F">
+    <animate attributeName="opacity" values="0.8;1;0.8" dur="2s" repeatCount="indefinite" begin="0.6s"/>
+  </circle>
+
+  <!-- Terminal Title -->
+  <text x="450" y="32" text-anchor="middle" font-family="'Fira Code', 'Courier New', monospace" font-size="12" fill="#FF0040" filter="url(#glowRed)" class="pulse">
+    ▓▓▓ SECURE TERMINAL v2026.03 ▓▓▓ — NTL CYBERPUNK SYSTEM
+  </text>
+
+  <!-- Status Indicators -->
+  <g>
+    <circle cx="820" cy="27" r="4" fill="#00FF00" filter="url(#glowGreen)" class="status-blink"/>
+    <text x="795" y="30" font-family="'Fira Code', monospace" font-size="8" fill="#00FF00" filter="url(#glowGreen)">LIVE</text>
+  </g>
+
+  <!-- Main Terminal Content Area -->
+  <rect x="15" y="50" width="870" height="455" rx="5" fill="#080810" stroke="#FF0040" stroke-width="0.3" opacity="0.95"/>
+
+  <!-- ACCESS GRANTED Header -->
+  <g class="type1">
+    <text x="450" y="85" text-anchor="middle" font-family="'Fira Code', 'Courier New', monospace" font-size="28" font-weight="bold" fill="#FF0040" filter="url(#glowRed)" class="color-shift">
+      ╔═══════════════════════════════════════════════════╗
+    </text>
+  </g>
+  <g class="type2">
+    <text x="450" y="115" text-anchor="middle" font-family="'Fira Code', 'Courier New', monospace" font-size="22" font-weight="bold" fill="#00FF00" filter="url(#glowGreen)">
+      ▶ ACCESS GRANTED — AUTHORIZATION COMPLETE
+    </text>
+  </g>
+  <g class="type3">
+    <text x="450" y="145" text-anchor="middle" font-family="'Fira Code', 'Courier New', monospace" font-size="28" font-weight="bold" fill="#FF0040" filter="url(#glowRed)" class="color-shift">
+      ╚═══════════════════════════════════════════════════╝
+    </text>
+  </g>
+
+  <!-- Status Bar -->
+  <g class="type4">
+    <text x="450" y="175" text-anchor="middle" font-family="'Fira Code', monospace" font-size="11" fill="#00FFFF" filter="url(#glowCyan)">
+      [■] STATUS: ACTIVE     [■] ENCRYPTION: AES-256     [■] LEVEL: ROOT ACCESS
+    </text>
+  </g>
+
+  <!-- Separator Line -->
+  <line x1="50" y1="190" x2="850" y2="190" stroke="url(#neonRedGrad)" stroke-width="1" class="pulse"/>
+
+  <!-- Developer Object Definition -->
+  <g class="type5">
+    <text x="40" y="215" font-family="'Fira Code', 'Courier New', monospace" font-size="13" fill="#FF00FF" filter="url(#glowPurple)">const</text>
+    <text x="90" y="215" font-family="'Fira Code', 'Courier New', monospace" font-size="13" fill="#FFFFFF">developer</text>
+    <text x="175" y="215" font-family="'Fira Code', 'Courier New', monospace" font-size="13" fill="#FF0040">=</text>
+    <text x="195" y="215" font-family="'Fira Code', 'Courier New', monospace" font-size="13" fill="#FFD700" filter="url(#glowYellow)">{</text>
+  </g>
+
+  <!-- Name -->
+  <g class="type6">
+    <text x="60" y="240" font-family="'Fira Code', 'Courier New', monospace" font-size="12" fill="#00FFFF" filter="url(#glowCyan)">name</text>
+    <text x="115" y="240" font-family="'Fira Code', 'Courier New', monospace" font-size="12" fill="#FF0040">:</text>
+    <text x="135" y="240" font-family="'Fira Code', 'Courier New', monospace" font-size="12" fill="#98FB98">"Mathiyazhagan NTL"</text>
+    <text x="320" y="240" font-family="'Fira Code', 'Courier New', monospace" font-size="12" fill="#666">,</text>
+  </g>
+
+  <!-- Alias -->
+  <g class="type6">
+    <text x="60" y="260" font-family="'Fira Code', 'Courier New', monospace" font-size="12" fill="#00FFFF" filter="url(#glowCyan)">alias</text>
+    <text x="115" y="260" font-family="'Fira Code', 'Courier New', monospace" font-size="12" fill="#FF0040">:</text>
+    <text x="135" y="260" font-family="'Fira Code', 'Courier New', monospace" font-size="12" fill="#98FB98">"Silent Thunder"</text>
+    <text x="295" y="260" font-family="'Fira Code', 'Courier New', monospace" font-size="12" fill="#666">,</text>
+  </g>
+
+  <!-- Role -->
+  <g class="type7">
+    <text x="60" y="280" font-family="'Fira Code', 'Courier New', monospace" font-size="12" fill="#00FFFF" filter="url(#glowCyan)">role</text>
+    <text x="105" y="280" font-family="'Fira Code', 'Courier New', monospace" font-size="12" fill="#FF0040">:</text>
+    <text x="125" y="280" font-family="'Fira Code', 'Courier New', monospace" font-size="12" fill="#98FB98">"Developer | AI Learner | Cyberpunk Builder"</text>
+    <text x="530" y="280" font-family="'Fira Code', 'Courier New', monospace" font-size="12" fill="#666">,</text>
+  </g>
+
+  <!-- Location -->
+  <g class="type7">
+    <text x="60" y="300" font-family="'Fira Code', 'Courier New', monospace" font-size="12" fill="#00FFFF" filter="url(#glowCyan)">location</text>
+    <text x="140" y="300" font-family="'Fira Code', 'Courier New', monospace" font-size="12" fill="#FF0040">:</text>
+    <text x="160" y="300" font-family="'Fira Code', 'Courier New', monospace" font-size="12" fill="#98FB98">"Coimbatore, India"</text>
+    <text x="335" y="300" font-family="'Fira Code', 'Courier New', monospace" font-size="12" fill="#666">,</text>
+  </g>
+
+  <!-- Focus -->
+  <g class="type8">
+    <text x="60" y="320" font-family="'Fira Code', 'Courier New', monospace" font-size="12" fill="#00FFFF" filter="url(#glowCyan)">focus</text>
+    <text x="115" y="320" font-family="'Fira Code', 'Courier New', monospace" font-size="12" fill="#FF0040">:</text>
+    <text x="135" y="320" font-family="'Fira Code', 'Courier New', monospace" font-size="12" fill="#FFD700" filter="url(#glowYellow)">[</text>
+    <text x="150" y="320" font-family="'Fira Code', 'Courier New', monospace" font-size="12" fill="#FF6B6B">"AI"</text>
+    <text x="185" y="320" font-family="'Fira Code', 'Courier New', monospace" font-size="12" fill="#666">,</text>
+    <text x="200" y="320" font-family="'Fira Code', 'Courier New', monospace" font-size="12" fill="#FF6B6B">"Automation"</text>
+    <text x="300" y="320" font-family="'Fira Code', 'Courier New', monospace" font-size="12" fill="#666">,</text>
+    <text x="315" y="320" font-family="'Fira Code', 'Courier New', monospace" font-size="12" fill="#FF6B6B">"Smart Systems"</text>
+    <text x="440" y="320" font-family="'Fira Code', 'Courier New', monospace" font-size="12" fill="#FFD700" filter="url(#glowYellow)">]</text>
+    <text x="455" y="320" font-family="'Fira Code', 'Courier New', monospace" font-size="12" fill="#666">,</text>
+  </g>
+
+  <!-- Mission -->
+  <g class="type8">
+    <text x="60" y="340" font-family="'Fira Code', 'Courier New', monospace" font-size="12" fill="#00FFFF" filter="url(#glowCyan)">mission</text>
+    <text x="135" y="340" font-family="'Fira Code', 'Courier New', monospace" font-size="12" fill="#FF0040">:</text>
+    <text x="155" y="340" font-family="'Fira Code', 'Courier New', monospace" font-size="12" fill="#FFD700" filter="url(#glowYellow)">"Next to Learn for Your Future"</text>
+    <text x="435" y="340" font-family="'Fira Code', 'Courier New', monospace" font-size="12" fill="#666">,</text>
+  </g>
+
+  <!-- Skills Section -->
+  <g class="type9">
+    <text x="60" y="365" font-family="'Fira Code', 'Courier New', monospace" font-size="12" fill="#FF00FF" filter="url(#glowPurple)">skills</text>
+    <text x="120" y="365" font-family="'Fira Code', 'Courier New', monospace" font-size="12" fill="#FF0040">:</text>
+    <text x="140" y="365" font-family="'Fira Code', 'Courier New', monospace" font-size="12" fill="#FFD700" filter="url(#glowYellow)">{</text>
+  </g>
+
+  <!-- Languages -->
+  <g class="type9">
+    <text x="80" y="385" font-family="'Fira Code', 'Courier New', monospace" font-size="11" fill="#00FFFF">languages</text>
+    <text x="170" y="385" font-family="'Fira Code', 'Courier New', monospace" font-size="11" fill="#FF0040">:</text>
+    <text x="185" y="385" font-family="'Fira Code', 'Courier New', monospace" font-size="11" fill="#98FB98">["Python", "Java", "JavaScript", "TypeScript"]</text>
+  </g>
+
+  <!-- Frontend -->
+  <g class="type10">
+    <text x="80" y="405" font-family="'Fira Code', 'Courier New', monospace" font-size="11" fill="#00FFFF">frontend</text>
+    <text x="165" y="405" font-family="'Fira Code', 'Courier New', monospace" font-size="11" fill="#FF0040">:</text>
+    <text x="180" y="405" font-family="'Fira Code', 'Courier New', monospace" font-size="11" fill="#98FB98">["React", "HTML5", "CSS3"]</text>
+  </g>
+
+  <!-- Backend & Tools -->
+  <g class="type10">
+    <text x="80" y="425" font-family="'Fira Code', 'Courier New', monospace" font-size="11" fill="#00FFFF">backend</text>
+    <text x="160" y="425" font-family="'Fira Code', 'Courier New', monospace" font-size="11" fill="#FF0040">:</text>
+    <text x="175" y="425" font-family="'Fira Code', 'Courier New', monospace" font-size="11" fill="#98FB98">["Node.js", "Express"]</text>
+    <text x="350" y="425" font-family="'Fira Code', 'Courier New', monospace" font-size="11" fill="#00FFFF">tools</text>
+    <text x="405" y="425" font-family="'Fira Code', 'Courier New', monospace" font-size="11" fill="#FF0040">:</text>
+    <text x="420" y="425" font-family="'Fira Code', 'Courier New', monospace" font-size="11" fill="#98FB98">["Git", "GitHub", "VS Code"]</text>
+  </g>
+
+  <!-- Close Skills -->
+  <g class="type11">
+    <text x="60" y="445" font-family="'Fira Code', 'Courier New', monospace" font-size="12" fill="#FFD700" filter="url(#glowYellow)">}</text>
+  </g>
+
+  <!-- Close Developer Object -->
+  <g class="type11">
+    <text x="40" y="465" font-family="'Fira Code', 'Courier New', monospace" font-size="13" fill="#FFD700" filter="url(#glowYellow)">};</text>
+  </g>
+
+  <!-- Init Call -->
+  <g class="type12">
+    <text x="40" y="490" font-family="'Fira Code', 'Courier New', monospace" font-size="13" fill="#FFFFFF">developer</text>
+    <text x="125" y="490" font-family="'Fira Code', 'Courier New', monospace" font-size="13" fill="#666">.</text>
+    <text x="135" y="490" font-family="'Fira Code', 'Courier New', monospace" font-size="13" fill="#FFD700" filter="url(#glowYellow)">init</text>
+    <text x="170" y="490" font-family="'Fira Code', 'Courier New', monospace" font-size="13" fill="#FF0040">()</text>
+    <text x="195" y="490" font-family="'Fira Code', 'Courier New', monospace" font-size="13" fill="#666">;</text>
+    <text x="220" y="490" font-family="'Fira Code', 'Courier New', monospace" font-size="13" fill="#666">// </text>
+    <text x="250" y="490" font-family="'Fira Code', 'Courier New', monospace" font-size="13" fill="#00FF00" filter="url(#glowGreen)">[✓] SYSTEM ONLINE</text>
+  </g>
+
+  <!-- Blinking Cursor -->
+  <rect x="420" y="478" width="10" height="16" fill="#00FF00" class="blink" filter="url(#glowGreen)"/>
+
+  <!-- Right Panel - Status -->
+  <g>
+    <rect x="620" y="210" width="250" height="250" rx="5" fill="rgba(10,10,18,0.8)" stroke="#FF0040" stroke-width="0.5" class="border-pulse"/>
+    
+    <!-- Panel Header -->
+    <text x="745" y="235" text-anchor="middle" font-family="'Fira Code', monospace" font-size="11" fill="#FF0040" filter="url(#glowRed)" class="pulse">
+      ═══ SYSTEM STATUS ═══
+    </text>
+
+    <!-- Status Items -->
+    <g class="type8">
+      <circle cx="640" cy="265" r="4" fill="#00FF00" filter="url(#glowGreen)" class="status-blink"/>
+      <text x="655" y="268" font-family="'Fira Code', monospace" font-size="10" fill="#00FF00">NEURAL CORE: ACTIVE</text>
+    </g>
+    
+    <g class="type9">
+      <circle cx="640" cy="290" r="4" fill="#00FFFF" filter="url(#glowCyan)">
+        <animate attributeName="opacity" values="0.5;1;0.5" dur="1.5s" repeatCount="indefinite"/>
+      </circle>
+      <text x="655" y="293" font-family="'Fira Code', monospace" font-size="10" fill="#00FFFF">AI MODULES: LOADING</text>
+    </g>
+    
+    <g class="type10">
+      <circle cx="640" cy="315" r="4" fill="#FFD700" filter="url(#glowYellow)">
+        <animate attributeName="opacity" values="0.6;1;0.6" dur="2s" repeatCount="indefinite"/>
+      </circle>
+      <text x="655" y="318" font-family="'Fira Code', monospace" font-size="10" fill="#FFD700">CODE STREAM: RUNNING</text>
+    </g>
+    
+    <g class="type11">
+      <circle cx="640" cy="340" r="4" fill="#FF00FF" filter="url(#glowPurple)">
+        <animate attributeName="opacity" values="0.5;1;0.5" dur="1.8s" repeatCount="indefinite"/>
+      </circle>
+      <text x="655" y="343" font-family="'Fira Code', monospace" font-size="10" fill="#FF00FF">BUILD: IN PROGRESS</text>
+    </g>
+
+    <!-- Progress Bar -->
+    <text x="640" y="375" font-family="'Fira Code', monospace" font-size="9" fill="#666">LOADING PROFILE...</text>
+    <rect x="640" y="385" width="200" height="8" rx="2" fill="#1a0a15" stroke="#FF0040" stroke-width="0.3"/>
+    <rect x="642" y="387" width="0" height="4" rx="1" fill="url(#redWineGrad)">
+      <animate attributeName="width" values="0;196;0" dur="4s" repeatCount="indefinite"/>
+    </rect>
+
+    <!-- Daily Quote -->
+    <text x="745" y="420" text-anchor="middle" font-family="'Fira Code', monospace" font-size="8" fill="#666">━━━━━━━━━━━━━━━━━</text>
+    <text x="745" y="440" text-anchor="middle" font-family="'Fira Code', monospace" font-size="9" fill="#C41E3A" filter="url(#glowWine)" class="pulse">
+      "Next to Learn for Your Future"
+    </text>
+    <text x="745" y="455" text-anchor="middle" font-family="'Fira Code', monospace" font-size="8" fill="#666">— Silent Thunder</text>
+  </g>
+
+  <!-- Floating Particles -->
+  <circle cx="100" cy="100" r="2" fill="#FF0040">
+    <animate attributeName="opacity" values="0;0.8;0" dur="4s" repeatCount="indefinite"/>
+    <animate attributeName="cy" values="100;80;100" dur="4s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="850" cy="150" r="1.5" fill="#00FFFF">
+    <animate attributeName="opacity" values="0;0.6;0" dur="5s" repeatCount="indefinite" begin="1s"/>
+    <animate attributeName="cy" values="150;130;150" dur="5s" repeatCount="indefinite" begin="1s"/>
+  </circle>
+  <circle cx="200" cy="480" r="1.5" fill="#FFD700">
+    <animate attributeName="opacity" values="0;0.7;0" dur="6s" repeatCount="indefinite" begin="2s"/>
+    <animate attributeName="cy" values="480;460;480" dur="6s" repeatCount="indefinite" begin="2s"/>
+  </circle>
+</svg>
