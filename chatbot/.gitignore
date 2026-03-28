@@ -1,0 +1,41 @@
+# ╔═══════════════════════════════════════════════════════════════════════════════╗
+# ║               MATHIYAZHAGAN NTL - AI CHATBOT .GITIGNORE                       ║
+# ╚═══════════════════════════════════════════════════════════════════════════════╝
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+.venv/
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Environment variables
+.env
+.env.local
+.env.production
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# Node (if using)
+node_modules/
+npm-debug.log*
+
+# Docker
+.docker/
+
+# Logs
+*.log
