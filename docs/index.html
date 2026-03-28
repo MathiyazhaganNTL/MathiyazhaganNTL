@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MathiyazhaganNTL | AI Assistant</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500;600;700&family=Orbitron:wght@400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Scanline Overlay -->
+    <div class="scanlines"></div>
+    
+    <!-- Background Grid -->
+    <div class="grid-bg"></div>
+
+    <!-- Main Container -->
+    <div class="container">
+        <!-- Header -->
+        <header class="header">
+            <div class="header-content">
+                <div class="logo-section">
+                    <div class="avatar-container">
+                        <div class="avatar-ring"></div>
+                        <div class="avatar">
+                            <span class="avatar-text">M</span>
+                        </div>
+                        <div class="status-indicator"></div>
+                    </div>
+                    <div class="title-section">
+                        <h1 class="title">MATHIYAZHAGAN<span class="highlight">NTL</span></h1>
+                        <p class="subtitle">AI ASSISTANT v2026.03</p>
+                    </div>
+                </div>
+                <div class="header-right">
+                    <div class="status-box">
+                        <span class="status-dot"></span>
+                        <span class="status-text">NEURAL LINK ACTIVE</span>
+                    </div>
+                    <button id="hacker-mode-btn" class="hacker-mode-btn active">
+                        <span class="btn-icon">⚡</span>
+                        <span class="btn-text">HACKER MODE</span>
+                    </button>
+                </div>
+            </div>
+            <div class="header-border"></div>
+        </header>
+
+        <!-- Chat Container -->
+        <main class="chat-container">
+            <!-- System Boot Message -->
+            <div class="system-boot">
+                <div class="boot-line">[SYSTEM] Initializing neural cores...</div>
+                <div class="boot-line">[SYSTEM] Loading knowledge base...</div>
+                <div class="boot-line">[SYSTEM] Establishing secure connection...</div>
+                <div class="boot-line success">[OK] AI Assistant ready. Welcome, user.</div>
+            </div>
+
+            <!-- Chat Messages -->
+            <div id="chat-messages" class="chat-messages">
+                <!-- Welcome Message -->
+                <div class="message ai-message">
+                    <div class="message-avatar">
+                        <span>M</span>
+                    </div>
+                    <div class="message-content">
+                        <div class="message-header">
+                            <span class="message-sender">MATHI.AI</span>
+                            <span class="message-time">--:--:--</span>
+                        </div>
+                        <div class="message-text">
+                            <span class="hacker-prefix">⚡ [NEURAL LINK ESTABLISHED]</span>
+                            <p>Welcome to my digital domain! I'm Mathi's AI assistant - your gateway to knowing everything about this cyberpunk developer.</p>
+                            <p>Ask me about:</p>
+                            <ul>
+                                <li>🔧 Skills & Tech Stack</li>
+                                <li>🚀 Projects & Builds</li>
+                                <li>📧 Contact & Collaboration</li>
+                            </ul>
+                            <span class="hacker-suffix">▶ Awaiting your query...</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Typing Indicator -->
+            <div id="typing-indicator" class="typing-indicator hidden">
+                <div class="message-avatar">
+                    <span>M</span>
+                </div>
+                <div class="typing-content">
+                    <span class="typing-text">Processing neural data</span>
+                    <div class="typing-dots">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <!-- Quick Actions -->
+        <div class="quick-actions">
+            <button class="quick-btn" data-query="What are your skills?">
+                <span class="quick-icon">🔧</span>
+                <span>Skills</span>
+            </button>
+            <button class="quick-btn" data-query="Tell me about your projects">
+                <span class="quick-icon">🚀</span>
+                <span>Projects</span>
+            </button>
+            <button class="quick-btn" data-query="How can I contact you?">
+                <span class="quick-icon">📧</span>
+                <span>Contact</span>
+            </button>
+            <button class="quick-btn" data-query="I want to hire you">
+                <span class="quick-icon">🤝</span>
+                <span>Hire</span>
+            </button>
+        </div>
+
+        <!-- Input Section -->
+        <footer class="input-section">
+            <div class="input-container">
+                <div class="input-prefix">
+                    <span class="prefix-text">USER@TERMINAL</span>
+                    <span class="prefix-arrow">▶</span>
+                </div>
+                <input 
+                    type="text" 
+                    id="user-input" 
+                    class="chat-input" 
+                    placeholder="Enter your query..."
+                    autocomplete="off"
+                >
+                <button id="send-btn" class="send-btn">
+                    <span class="send-icon">⚡</span>
+                    <span class="send-text">TRANSMIT</span>
+                </button>
+            </div>
+            <div class="input-hint">
+                Press <kbd>Enter</kbd> to send • Type naturally or use quick actions above
+            </div>
+        </footer>
+    </div>
+
+    <!-- Loading Overlay -->
+    <div id="loading-overlay" class="loading-overlay hidden">
+        <div class="loading-content">
+            <div class="loading-spinner"></div>
+            <div class="loading-text">
+                <span class="loading-line">Decrypting neural pathways...</span>
+                <span class="loading-line">Accessing knowledge cores...</span>
+                <span class="loading-line">Establishing connection...</span>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
