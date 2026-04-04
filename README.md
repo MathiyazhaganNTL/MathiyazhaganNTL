@@ -125,21 +125,6 @@
 
 </div>
 <img src="https://capsule-render.vercel.app/api?type=waving&height=30&color=0:0D1117,50:FF0000,100:0D1117&section=header" width="100%">
-<!-- ═══════════════════ PHILOSOPHY ═══════════════════ -->
-
-<div align="center">
-
-```
-╔══════════════════════════════════════════════════════════════╗
-║                                                              ║
-║          " Next to Learn for Your Future "                   ║
-║                                                              ║
-║             — Mathiyazhagan NTL | Silent Thunder             ║
-║                                                              ║
-╚══════════════════════════════════════════════════════════════╝
-```
-
-</div>
 <!-- ═══════════════════ FOOTER ═══════════════════ -->
 
 <img src="https://capsule-render.vercel.app/api?type=waving&height=120&color=0:0D1117,50:FF0000,100:0D1117&section=footer" width="100%"/>
