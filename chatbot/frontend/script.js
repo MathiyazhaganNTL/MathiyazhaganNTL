@@ -54,6 +54,17 @@ const CONFIG = {
 // ═══════════════════════════════════════════════════════════════════════════════
 
 const FALLBACK_RESPONSES = {
+    about: `⚡ [PROFILE SNAPSHOT LOADED]
+
+Mathiyazhagan NTL (Mathi), also known as Silent Thunder, is a developer and AI enthusiast from Coimbatore, India.
+
+Focus areas:
+• AI tools and intelligent applications
+• Full-stack web development
+• Consistent daily problem-solving and learning
+
+Mission: "Next to Learn for Your Future."`,
+
     skills: `⚡ [SKILL MATRIX LOADED]
 
 Mathi's core capabilities:
@@ -100,12 +111,15 @@ Let's build something amazing together! ⚡`,
 
     default: `⚡ Neural link established...
 
-I'm Mathi's AI assistant! I can tell you about:
-• His skills & tech stack
-• Projects he's built
-• How to contact or collaborate with him
+I am Mathiyazhagan NTL's personal AI assistant.
 
-What would you like to know? 🔥`
+Ask me about:
+• About Mathiyazhagan NTL
+• Skills and technology stack
+• Featured projects and work
+• Contact and collaboration details
+
+What would you like to explore first? 🔥`
 };
 
 // ═══════════════════════════════════════════════════════════════════════════════
@@ -206,6 +220,10 @@ function formatResponse(text) {
  */
 function getFallbackResponse(message) {
     const msgLower = message.toLowerCase();
+
+    if (['who is', 'about', 'mathiyazhagan', 'mathi', 'profile', 'introduce'].some(w => msgLower.includes(w))) {
+        return FALLBACK_RESPONSES.about;
+    }
     
     if (['skill', 'know', 'tech', 'language', 'stack', 'can you', 'what do'].some(w => msgLower.includes(w))) {
         return FALLBACK_RESPONSES.skills;
