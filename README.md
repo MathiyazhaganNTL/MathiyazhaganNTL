@@ -14,18 +14,14 @@
 <!-- ═══════════════════ CHAT WITH AI AGENT ═══════════════════ -->
 
 <div align="center">
-
-<a href="https://mathiyazhaganntl.github.io/MathiyazhaganNTL/">
-<img src="https://img.shields.io/badge/%E2%9A%A1_CHAT_WITH_MY_AI_ASSISTANT-FF0040?style=for-the-badge&logo=robot-framework&logoColor=white&labelColor=0D1117&scale=2" alt="Chat with Mathi's AI Agent">
-</a>
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=16&duration=1500&pause=800&color=FF0040&center=true&vCenter=true&multiline=false&repeat=true&width=600&height=30&lines=%E2%9A%A1+My+AI+agent+is+online...;Ask+about+my+skills%2C+projects%2C+contact...;Click+the+badge+above+to+start+chatting!" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=16&duration=1400&pause=700&color=FF0040&center=true&vCenter=true&multiline=false&repeat=false&width=600&height=30&lines=%E2%9A%A1+My+AI+agent+is+online...;Ask+about+my+skills%2C+projects%2C+contact...;Use+the+chat+button+below+to+start." />
 
 </div>
 <!-- ═══════════════════ LIVE TYPING ANIMATION ═══════════════════ -->
 
 <div align="center">
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&duration=2800&pause=1000&color=FF0000&center=true&vCenter=true&multiline=false&repeat=true&width=700&height=45&lines=Silent+Thunder+Developer;AI+System+Builder;Consistent+Daily+Coding;Next+to+Learn+For+Your+Future" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=2100&pause=600&color=FF0000&center=true&vCenter=true&multiline=false&repeat=false&width=760&height=45&lines=About+Me;Mathiyazhagan+NTL+%7C+Silent+Thunder;AI+Builder+%26+Full-Stack+Developer;Next+to+Learn+for+Your+Future" />
 
 </div>
 <!-- ═══════════════════ TECH STACK — ANIMATED ICONS ═══════════════════ -->
@@ -41,7 +37,7 @@
 
 <div align="center">
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=18&duration=2000&pause=600&color=FF0000&center=true&vCenter=true&multiline=false&repeat=true&width=600&height=35&lines=%24+developer.load_profile();%24+initializing+systems...;%24+loading+modules...;%24+system+ready+%E2%9C%94" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=18&duration=1800&pause=500&color=FF0000&center=true&vCenter=true&multiline=false&repeat=false&width=600&height=35&lines=%24+developer.load_profile();%24+initializing+systems...;%24+loading+modules...;%24+system+ready+%E2%9C%94" />
 
 </div>
 <!-- ═══════════════════ ANIMATED TERMINAL ═══════════════════ -->
