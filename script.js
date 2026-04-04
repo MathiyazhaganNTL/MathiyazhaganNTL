@@ -10,8 +10,10 @@
 // ═══════════════════════════════════════════════════════════════════════════════
 
 const CONFIG = {
-    // API endpoint - change this to your deployed backend URL
-    API_URL: 'http://localhost:8000',
+    // API endpoint - uses local backend in dev and fallback mode on GitHub Pages
+    API_URL: (window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1')
+        ? 'http://localhost:8000'
+        : '',
     
     // Typing simulation delays (ms)
     TYPING_DELAY_MIN: 1000,
@@ -320,6 +322,10 @@ function toggleHackerMode() {
  * Send message to API
  */
 async function sendToAPI(message) {
+    if (!CONFIG.API_URL) {
+        return null;
+    }
+
     try {
         const response = await fetch(`${CONFIG.API_URL}/chat`, {
             method: 'POST',
