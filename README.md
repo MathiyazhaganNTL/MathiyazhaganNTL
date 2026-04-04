@@ -11,12 +11,6 @@
 <h3>Mathiyazhagan NTL | Silent Thunder</h3>
 
 </div>
-<!-- ═══════════════════ CHAT WITH AI AGENT ═══════════════════ -->
-
-<div align="center">
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=16&duration=1400&pause=700&color=FF0040&center=true&vCenter=true&multiline=false&repeat=false&width=600&height=30&lines=%E2%9A%A1+My+AI+agent+is+online...;Ask+about+my+skills%2C+projects%2C+contact...;Use+the+chat+button+below+to+start." />
-
-</div>
 <!-- ═══════════════════ LIVE TYPING ANIMATION ═══════════════════ -->
 
 <div align="center">
