@@ -137,7 +137,7 @@ body.widget-open .container {
    ═══════════════════════════════════════════════════════════════════════════════ */
 
 .container {
-    height: min(78vh, 720px);
+    height: min(74vh, 680px);
     display: flex;
     flex-direction: column;
     width: min(430px, calc(100vw - 24px));
@@ -146,7 +146,7 @@ body.widget-open .container {
     padding: var(--spacing-sm);
     position: fixed;
     right: 12px;
-    bottom: 86px;
+    bottom: 74px;
     z-index: 90;
     border: 1px solid var(--border-color);
     border-radius: 12px;
@@ -161,7 +161,7 @@ body.widget-open .container {
 
 .header {
     flex-shrink: 0;
-    padding: var(--spacing-md) 0;
+    padding: 10px 0;
 }
 
 .header-content {
@@ -169,7 +169,7 @@ body.widget-open .container {
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
-    gap: var(--spacing-md);
+    gap: 12px;
 }
 
 .logo-section {
@@ -376,12 +376,12 @@ body.widget-open .container {
     background: var(--bg-card);
     border: 1px solid var(--border-color);
     border-radius: 8px;
-    margin: var(--spacing-md) 0;
+    margin: 8px 0;
 }
 
 /* System Boot Messages */
 .system-boot {
-    padding: var(--spacing-md);
+    padding: 12px;
     border-bottom: 1px solid var(--border-color);
     background: rgba(0, 0, 0, 0.3);
 }
@@ -412,7 +412,7 @@ body.widget-open .container {
 .chat-messages {
     flex: 1;
     overflow-y: auto;
-    padding: var(--spacing-md);
+    padding: 12px;
     scroll-behavior: smooth;
 }
 
@@ -441,7 +441,7 @@ body.widget-open .container {
 .message {
     display: flex;
     gap: var(--spacing-md);
-    margin-bottom: var(--spacing-lg);
+    margin-bottom: 16px;
     animation: message-appear 0.4s ease;
 }
 
@@ -516,7 +516,7 @@ body.widget-open .container {
 }
 
 .message-text p {
-    margin-bottom: var(--spacing-sm);
+    margin-bottom: 12px;
 }
 
 .message-text ul {
@@ -603,8 +603,8 @@ body.widget-open .container {
 
 .quick-actions {
     display: flex;
-    gap: var(--spacing-sm);
-    padding: var(--spacing-sm) 0;
+    gap: 6px;
+    padding: 6px 0;
     overflow-x: auto;
     flex-shrink: 0;
 }
@@ -643,7 +643,7 @@ body.widget-open .container {
 
 .input-section {
     flex-shrink: 0;
-    padding: var(--spacing-md) 0;
+    padding: 10px 0;
 }
 
 .input-container {
@@ -730,7 +730,7 @@ body.widget-open .container {
 }
 
 .input-hint {
-    margin-top: var(--spacing-sm);
+    margin-top: 6px;
     font-size: 0.7rem;
     color: var(--text-dim);
     text-align: center;
@@ -843,8 +843,8 @@ body.widget-open .container {
         left: 8px;
         width: auto;
         max-width: none;
-        bottom: 72px;
-        height: min(80vh, 680px);
+        bottom: 68px;
+        height: min(76vh, 620px);
         padding: var(--spacing-sm);
     }
     
