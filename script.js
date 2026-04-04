@@ -123,10 +123,14 @@ const state = {
 // ═══════════════════════════════════════════════════════════════════════════════
 
 const elements = {
+    body: document.body,
+    container: document.querySelector('.container'),
     chatMessages: document.getElementById('chat-messages'),
     userInput: document.getElementById('user-input'),
     sendBtn: document.getElementById('send-btn'),
     hackerModeBtn: document.getElementById('hacker-mode-btn'),
+    widgetCloseBtn: document.getElementById('widget-close-btn'),
+    widgetToggleBtn: document.getElementById('chat-widget-toggle'),
     typingIndicator: document.getElementById('typing-indicator'),
     loadingOverlay: document.getElementById('loading-overlay'),
     quickBtns: document.querySelectorAll('.quick-btn')
@@ -314,6 +318,27 @@ function toggleHackerMode() {
     btnText.textContent = state.hackerMode ? 'HACKER MODE' : 'NORMAL MODE';
 }
 
+function openWidget() {
+    elements.body.classList.remove('widget-collapsed');
+    elements.body.classList.add('widget-open');
+    elements.widgetToggleBtn.setAttribute('aria-expanded', 'true');
+    elements.userInput.focus();
+}
+
+function closeWidget() {
+    elements.body.classList.remove('widget-open');
+    elements.body.classList.add('widget-collapsed');
+    elements.widgetToggleBtn.setAttribute('aria-expanded', 'false');
+}
+
+function toggleWidget() {
+    if (elements.body.classList.contains('widget-open')) {
+        closeWidget();
+    } else {
+        openWidget();
+    }
+}
+
 // ═══════════════════════════════════════════════════════════════════════════════
 // API FUNCTIONS
 // ═══════════════════════════════════════════════════════════════════════════════
@@ -416,6 +441,10 @@ function initEventListeners() {
     
     // Hacker mode toggle
     elements.hackerModeBtn.addEventListener('click', toggleHackerMode);
+
+    // Widget controls
+    elements.widgetToggleBtn.addEventListener('click', toggleWidget);
+    elements.widgetCloseBtn.addEventListener('click', closeWidget);
     
     // Quick action buttons
     elements.quickBtns.forEach(btn => {
@@ -426,9 +455,13 @@ function initEventListeners() {
             }
         });
     });
-    
-    // Focus input on page load
-    elements.userInput.focus();
+
+    // Close widget with ESC
+    document.addEventListener('keydown', (e) => {
+        if (e.key === 'Escape' && elements.body.classList.contains('widget-open')) {
+            closeWidget();
+        }
+    });
 }
 
 // ═══════════════════════════════════════════════════════════════════════════════
@@ -440,6 +473,9 @@ function initEventListeners() {
  */
 function init() {
     console.log('⚡ MathiyazhaganNTL AI Assistant initializing...');
+
+    // Start as floating launcher and open chat on demand
+    elements.body.classList.add('widget-collapsed');
     
     // Set up event listeners
     initEventListeners();
