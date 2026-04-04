@@ -52,15 +52,6 @@
 
 </div>
 <img src="https://capsule-render.vercel.app/api?type=waving&height=30&color=0:0D1117,50:FF0000,100:0D1117&section=header" width="100%">
-<!-- ═══════════════════ LIVE STREAK ═══════════════════ -->
-
-<h2 align="center">Contribution Streak</h2>
-
-<div align="center">
-
-<img src="https://github-readme-streak-stats.herokuapp.com?user=MathiyazhaganNTL&theme=tokyonight&hide_border=true&background=0D1117&ring=FF0000&fire=FF0000&currStreakLabel=FF0000&sideLabels=FF0000&currStreakNum=FFFFFF&sideNums=FFFFFF&dates=555555&stroke=FF0000" width="700"/>
-
-</div>
 <!-- ═══════════════════ CONTRIBUTION SNAKE ═══════════════════ -->
 
 <h2 align="center">Contribution Snake</h2>
@@ -75,24 +66,6 @@
 
 </div>
 <img src="https://capsule-render.vercel.app/api?type=waving&height=30&color=0:0D1117,50:FF0000,100:0D1117&section=header" width="100%">
-<!-- ═══════════════════ STATS DASHBOARD ═══════════════════ -->
-
-<h2 align="center">Developer Analytics</h2>
-
-<div align="center">
-
-<img height="180" src="https://github-readme-stats.vercel.app/api?username=MathiyazhaganNTL&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=FF0000&icon_color=FF0000&text_color=FFFFFF&ring_color=FF0000" />
-&nbsp;&nbsp;
-<img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=MathiyazhaganNTL&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=FF0000&text_color=FFFFFF" />
-
-</div>
-<!-- ═══════════════════ ACTIVITY GRAPH ═══════════════════ -->
-
-<div align="center">
-
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=MathiyazhaganNTL&bg_color=0D1117&color=FF0000&line=FF0000&point=FFFFFF&area_color=0D1117&area=true&hide_border=true&custom_title=Contribution%20Activity%20Graph" width="95%"/>
-
-</div>
 <img src="https://capsule-render.vercel.app/api?type=waving&height=30&color=0:0D1117,50:FF0000,100:0D1117&section=header" width="100%">
 <!-- ═══════════════════ FEATURED PROJECTS ═══════════════════ -->
 
