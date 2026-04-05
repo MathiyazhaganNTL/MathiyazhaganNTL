@@ -99,12 +99,24 @@ Official achievements unlocked on GitHub profile.
   <tr>
     <td>Pull Shark</td>
     <td>Earned</td>
-    <td><a href="https://github.com/MathiyazhaganNTL?achievement=pull-shark&tab=achievements">View on GitHub</a></td>
+    <td align="center">
+      <a href="https://github.com/MathiyazhaganNTL?achievement=pull-shark&tab=achievements">
+        <img src="https://github.githubassets.com/assets/pull-shark-default-498c279a747d.png" alt="Pull Shark Achievement" width="64" height="64" />
+      </a>
+      <br />
+      <a href="https://github.com/MathiyazhaganNTL?achievement=pull-shark&tab=achievements">View on GitHub</a>
+    </td>
   </tr>
   <tr>
     <td>YOLO</td>
     <td>Earned</td>
-    <td><a href="https://github.com/MathiyazhaganNTL?achievement=yolo&tab=achievements">View on GitHub</a></td>
+    <td align="center">
+      <a href="https://github.com/MathiyazhaganNTL?achievement=yolo&tab=achievements">
+        <img src="https://github.githubassets.com/assets/yolo-default-be0bbff04951.png" alt="YOLO Achievement" width="64" height="64" />
+      </a>
+      <br />
+      <a href="https://github.com/MathiyazhaganNTL?achievement=yolo&tab=achievements">View on GitHub</a>
+    </td>
   </tr>
 </table>
 
