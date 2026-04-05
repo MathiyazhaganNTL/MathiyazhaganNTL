@@ -84,9 +84,29 @@
 
 <h2 align="center">GitHub Achievements</h2>
 
+<p align="center">
+Official achievements unlocked on GitHub profile.
+</p>
+
 <div align="center">
 
-<img src="https://github-profile-trophy.vercel.app/?username=MathiyazhaganNTL&theme=matrix&no-frame=true&no-bg=true&margin-w=12&margin-h=12&column=7" width="95%"/>
+<table>
+  <tr>
+    <th>Achievement</th>
+    <th>Status</th>
+    <th>Details</th>
+  </tr>
+  <tr>
+    <td>Pull Shark</td>
+    <td>Earned</td>
+    <td><a href="https://github.com/MathiyazhaganNTL?achievement=pull-shark&tab=achievements">View on GitHub</a></td>
+  </tr>
+  <tr>
+    <td>YOLO</td>
+    <td>Earned</td>
+    <td><a href="https://github.com/MathiyazhaganNTL?achievement=yolo&tab=achievements">View on GitHub</a></td>
+  </tr>
+</table>
 
 </div>
 <img src="https://capsule-render.vercel.app/api?type=waving&height=30&color=0:0D1117,50:FF0000,100:0D1117&section=header" width="100%">
