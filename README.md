@@ -57,29 +57,6 @@
 </div>
 <img src="https://capsule-render.vercel.app/api?type=waving&height=30&color=0:0D1117,50:FF0000,100:0D1117&section=header" width="100%">
 <img src="https://capsule-render.vercel.app/api?type=waving&height=30&color=0:0D1117,50:FF0000,100:0D1117&section=header" width="100%">
-<!-- ═══════════════════ FEATURED PROJECTS ═══════════════════ -->
-
-<h2 align="center">Featured Projects</h2>
-
-<div align="center">
-
-<a href="https://github.com/MathiyazhaganNTL/NTL_PLANTS">
-<img src="https://github-readme-stats.vercel.app/api/pin/?username=MathiyazhaganNTL&repo=NTL_PLANTS&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=FF0000&icon_color=FF0000&text_color=AAAAAA" width="400" />
-</a>
-&nbsp;&nbsp;
-<a href="https://github.com/MathiyazhaganNTL/Daily_Leetcode">
-<img src="https://github-readme-stats.vercel.app/api/pin/?username=MathiyazhaganNTL&repo=Daily_Leetcode&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=FF0000&icon_color=FF0000&text_color=AAAAAA" width="400" />
-</a>
-<a href="https://github.com/MathiyazhaganNTL/Learning_NTL">
-<img src="https://github-readme-stats.vercel.app/api/pin/?username=MathiyazhaganNTL&repo=Learning_NTL&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=FF0000&icon_color=FF0000&text_color=AAAAAA" width="400" />
-</a>
-&nbsp;&nbsp;
-<a href="https://github.com/MathiyazhaganNTL/MathiyazhaganNTL">
-<img src="https://github-readme-stats.vercel.app/api/pin/?username=MathiyazhaganNTL&repo=MathiyazhaganNTL&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=FF0000&icon_color=FF0000&text_color=AAAAAA" width="400" />
-</a>
-
-</div>
-<img src="https://capsule-render.vercel.app/api?type=waving&height=30&color=0:0D1117,50:FF0000,100:0D1117&section=header" width="100%">
 <!-- ═══════════════════ GITHUB TROPHIES ═══════════════════ -->
 
 <h2 align="center">GitHub Achievements</h2>
