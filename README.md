@@ -56,12 +56,11 @@
 
 </div>
 <img src="https://capsule-render.vercel.app/api?type=waving&height=30&color=0:0D1117,50:FF0000,100:0D1117&section=header" width="100%">
-<img src="https://capsule-render.vercel.app/api?type=waving&height=30&color=0:0D1117,50:FF0000,100:0D1117&section=header" width="100%">
 <!-- ═══════════════════ GITHUB TROPHIES ═══════════════════ -->
 
-<h2 align="center">GitHub Achievements</h2>
+<h2 align="center" style="margin: 10px 0 8px;">GitHub Achievements</h2>
 
-<p align="center">
+<p align="center" style="margin: 0 0 10px;">
 Official achievements unlocked on GitHub profile.
 </p>
 
@@ -112,7 +111,7 @@ Official achievements unlocked on GitHub profile.
 </div>
 <!-- ═══════════════════ CONNECT ═══════════════════ -->
 
-<h2 align="center">Connect</h2>
+<h2 align="center" style="margin: 10px 0 8px;">Connect</h2>
 
 <div align="center">
 
