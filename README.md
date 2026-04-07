@@ -116,7 +116,7 @@ Official achievements unlocked on GitHub profile.
 <div align="center">
 
 <a href="mailto:programmermathi@gmail.com">
-<img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" />
+<img src="https://img.shields.io/badge/programmermathi@gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white" />
 </a>
 &nbsp;
 <a href="https://www.linkedin.com/in/mathiyazhaganntl">
