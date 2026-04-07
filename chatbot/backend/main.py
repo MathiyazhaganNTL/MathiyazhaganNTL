@@ -114,6 +114,7 @@ CONTACT INFORMATION
 - GitHub: github.com/MathiyazhaganNTL
 - Email: programmermathi@gmail.com
 - Portfolio: https://www.mathintlprotfolio.dev/
+- LinkedIn: linkedin.com/in/mathiyazhaganntl
 - Location: Coimbatore, India
 
 ═══════════════════════════════════════════════════════════════
@@ -279,6 +280,7 @@ Each project showcases his love for combining AI with real-world solutions! ⚡"
 📧 Email: programmermathi@gmail.com
 🐙 GitHub: github.com/MathiyazhaganNTL
 🌐 Portfolio: https://www.mathintlprotfolio.dev/
+🔗 LinkedIn: linkedin.com/in/mathiyazhaganntl
 📍 Location: Coimbatore, India
 
 Feel free to reach out - Mathi loves connecting with fellow developers! 🤝""",
@@ -376,6 +378,8 @@ async def get_info():
         "location": "Coimbatore, India",
         "github": "github.com/MathiyazhaganNTL",
         "email": "programmermathi@gmail.com",
+        "linkedin": "linkedin.com/in/mathiyazhaganntl",
+        "portfolio": "https://www.mathintlprotfolio.dev/",
         "skills": {
             "ai": ["Claude", "Gemini", "Gemma", "Qwen", "Ollama"],
             "languages": ["Python", "Java", "JavaScript", "TypeScript"],
