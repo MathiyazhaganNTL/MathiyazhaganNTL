@@ -89,7 +89,7 @@ Each project showcases his love for combining AI with real-world solutions! ⚡`
 
 📧 Email: programmermathi@gmail.com
 🐙 GitHub: github.com/MathiyazhaganNTL
-🌐 Portfolio: mathintlportfolio.dev
+🌐 Portfolio: https://www.mathintlprotfolio.dev/
 📍 Location: Coimbatore, India
 
 Feel free to reach out - Mathi loves connecting with fellow developers! 🤝`,
