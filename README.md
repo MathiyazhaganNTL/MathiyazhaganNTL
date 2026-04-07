@@ -123,7 +123,7 @@ Official achievements unlocked on GitHub profile.
 <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" />
 </a>
 &nbsp;
-<a href="https://mathintlportfolio.dev/">
+<a href="https://www.mathintlprotfolio.dev/">
 <img src="https://img.shields.io/badge/Portfolio-FF0000?style=for-the-badge&logo=firefox&logoColor=0D1117" />
 </a>
 &nbsp;
