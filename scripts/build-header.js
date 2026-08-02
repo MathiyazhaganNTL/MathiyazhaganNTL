@@ -2,7 +2,7 @@ const fs = require('fs');
 const path = require('path');
 
 const photoPath = path.join(__dirname, '../assets/avatar-opt.jpg');
-const bgPath = path.join(__dirname, '../assets/header-bg.png');
+const bgPath = path.join(__dirname, '../assets/header-bg.jpg');
 const outputPath = path.join(__dirname, '../assets/header.svg');
 
 const photoB64 = fs.readFileSync(photoPath).toString('base64');
@@ -40,7 +40,7 @@ const svgContent = `<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://
 
   <!-- Finspark Background Pattern Image Overlay -->
   <g opacity="0.75">
-    <image href="data:image/png;base64,${bgB64}" x="10" y="10" width="1180" height="500" preserveAspectRatio="xMidYMid slice" />
+    <image href="data:image/jpeg;base64,${bgB64}" x="10" y="10" width="1180" height="500" preserveAspectRatio="xMidYMid slice" />
   </g>
 
   <!-- Translucent Content Layer for Legibility -->
@@ -177,4 +177,4 @@ const svgContent = `<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://
 </svg>`;
 
 fs.writeFileSync(outputPath, svgContent);
-console.log('SVG Header rebuilt successfully with Finspark background pattern!');
+console.log('Lightweight SVG Header successfully generated!');
