@@ -1,4 +1,9 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="100%" viewBox="0 0 1200 520" fill="none">
+const fs = require('fs');
+const path = require('path');
+
+const outputPath = path.join(__dirname, '../assets/header.svg');
+
+const svgContent = `<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="100%" viewBox="0 0 1200 520" fill="none">
   <defs>
     <style>
       @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&amp;display=swap');
@@ -166,4 +171,7 @@
       </g>
     </g>
   </g>
-</svg>
+</svg>`;
+
+fs.writeFileSync(outputPath, svgContent);
+console.log('Lightweight SVG Header generated successfully at:', outputPath);
