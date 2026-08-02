@@ -27,29 +27,33 @@ const svgContent = `<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://
     </style>
 
     <filter id="card-shadow" x="-2%" y="-2%" width="104%" height="104%">
-      <feDropShadow dx="0" dy="4" stdDeviation="12" flood-color="#0f172a" flood-opacity="0.06"/>
+      <feDropShadow dx="0" dy="4" stdDeviation="12" flood-color="#0f172a" flood-opacity="0.08"/>
     </filter>
+
+    <clipPath id="card-clip">
+      <rect x="10" y="10" width="1180" height="500" rx="16" />
+    </clipPath>
 
     <clipPath id="avatar-clip">
       <circle cx="170" cy="195" r="105" />
     </clipPath>
   </defs>
 
-  <!-- Outer Main Card Container -->
-  <rect x="10" y="10" width="1180" height="500" rx="16" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.5" filter="url(#card-shadow)" />
+  <!-- Outer Card Shadow & Border Container -->
+  <rect x="10" y="10" width="1180" height="500" rx="16" fill="#ffffff" filter="url(#card-shadow)" stroke="#cbd5e1" stroke-width="1.5" />
 
-  <!-- Finspark Background Pattern Image Overlay -->
-  <g opacity="0.75">
-    <image href="data:image/jpeg;base64,${bgB64}" x="10" y="10" width="1180" height="500" preserveAspectRatio="xMidYMid slice" />
+  <!-- 100% Full Visibility Finspark Background Image -->
+  <g clip-path="url(#card-clip)">
+    <image href="data:image/jpeg;base64,${bgB64}" x="10" y="10" width="1180" height="500" preserveAspectRatio="xMidYMid slice" opacity="1.0" />
   </g>
 
-  <!-- Translucent Content Layer for Legibility -->
-  <rect x="25" y="25" width="1150" height="470" rx="12" fill="#ffffff" fill-opacity="0.86" />
+  <!-- Elegant Semi-Translucent Glass Panel for Optimal Legibility while keeping Finspark Background vibrant -->
+  <rect x="25" y="25" width="1150" height="470" rx="12" fill="#ffffff" fill-opacity="0.68" stroke="#ffffff" stroke-width="1" />
 
   <!-- ==================== LEFT COLUMN: PROFILE PHOTO ==================== -->
   <!-- Outer Accent Ring -->
   <circle cx="170" cy="195" r="109" fill="none" stroke="#2563eb" stroke-width="3.5" />
-  <circle cx="170" cy="195" r="106" fill="#f8fafc" />
+  <circle cx="170" cy="195" r="106" fill="#ffffff" />
 
   <!-- Profile Image from Black_court_Mathi.png -->
   <image href="data:image/jpeg;base64,${photoB64}" x="65" y="90" width="210" height="210" clip-path="url(#avatar-clip)" preserveAspectRatio="xMidYMid slice" />
@@ -71,30 +75,34 @@ const svgContent = `<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://
   <g transform="translate(315, 278)">
     <!-- Row 1: Location & Email -->
     <g transform="translate(0, 0)">
-      <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5a2.5 2.5 0 1 1 0-5 2.5 2.5 0 0 1 0 5z" fill="#64748b" transform="scale(0.8) translate(0, -3)"/>
-      <text x="20" y="12" class="contact-text">India</text>
+      <rect x="-4" y="-3" width="92" height="22" rx="4" fill="#ffffff" fill-opacity="0.8" stroke="#cbd5e1" stroke-width="0.8"/>
+      <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5a2.5 2.5 0 1 1 0-5 2.5 2.5 0 0 1 0 5z" fill="#64748b" transform="scale(0.8) translate(2, -3)"/>
+      <text x="22" y="12" class="contact-text">India</text>
     </g>
 
     <g transform="translate(105, 0)">
-      <path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z" fill="#2563eb" transform="scale(0.75) translate(0, -2)"/>
-      <text x="22" y="12" class="contact-text">mathiyazhaganntl@gmail.com</text>
+      <rect x="-4" y="-3" width="195" height="22" rx="4" fill="#ffffff" fill-opacity="0.8" stroke="#cbd5e1" stroke-width="0.8"/>
+      <path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z" fill="#2563eb" transform="scale(0.75) translate(2, -2)"/>
+      <text x="24" y="12" class="contact-text">mathiyazhaganntl@gmail.com</text>
     </g>
 
     <!-- Row 2: Portfolio & LinkedIn -->
     <g transform="translate(0, 28)">
-      <path d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76 0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71 0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71 0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76 0 5-2.24 5-5s-2.24-5-5-5z" fill="#64748b" transform="scale(0.75) translate(0, -2)"/>
-      <text x="22" y="12" class="contact-text">mathintlportfolio.dev</text>
+      <rect x="-4" y="-3" width="165" height="22" rx="4" fill="#ffffff" fill-opacity="0.8" stroke="#cbd5e1" stroke-width="0.8"/>
+      <path d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76 0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71 0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71 0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76 0 5-2.24 5-5s-2.24-5-5-5z" fill="#64748b" transform="scale(0.75) translate(2, -2)"/>
+      <text x="24" y="12" class="contact-text">mathintlportfolio.dev</text>
     </g>
 
-    <g transform="translate(205, 28)">
-      <rect x="0" y="-1" width="16" height="16" rx="3" fill="#0077b5" />
-      <text x="4" y="11" font-size="10" font-weight="700" fill="#ffffff">in</text>
-      <text x="22" y="12" class="contact-text">linkedin.com/in/mathiyazhagan-ntl</text>
+    <g transform="translate(178, 28)">
+      <rect x="-4" y="-3" width="225" height="22" rx="4" fill="#ffffff" fill-opacity="0.8" stroke="#cbd5e1" stroke-width="0.8"/>
+      <rect x="2" y="-1" width="16" height="16" rx="3" fill="#0077b5" />
+      <text x="6" y="11" font-size="10" font-weight="700" fill="#ffffff">in</text>
+      <text x="24" y="12" class="contact-text">linkedin.com/in/mathiyazhagan-ntl</text>
     </g>
   </g>
 
   <!-- ==================== VERTICAL SEPARATOR ==================== -->
-  <line x1="835" y1="65" x2="835" y2="335" stroke="#e2e8f0" stroke-width="1.5" />
+  <line x1="835" y1="65" x2="835" y2="335" stroke="#cbd5e1" stroke-width="1.5" />
 
   <!-- ==================== RIGHT COLUMN: CURRENTLY WORKING ON ==================== -->
   <g transform="translate(865, 70)">
@@ -117,7 +125,7 @@ const svgContent = `<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://
   </g>
 
   <!-- ==================== BOTTOM HORIZONTAL SEPARATOR ==================== -->
-  <line x1="45" y1="365" x2="1155" y2="365" stroke="#e2e8f0" stroke-width="1.5" />
+  <line x1="45" y1="365" x2="1155" y2="365" stroke="#cbd5e1" stroke-width="1.5" />
 
   <!-- ==================== BOTTOM STATS BAR ==================== -->
   <g transform="translate(45, 385)">
@@ -130,7 +138,7 @@ const svgContent = `<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://
       </g>
     </g>
 
-    <line x1="240" y1="15" x2="240" y2="60" stroke="#f1f5f9" stroke-width="2" />
+    <line x1="240" y1="15" x2="240" y2="60" stroke="#e2e8f0" stroke-width="2" />
 
     <!-- Stat 2: GitHub Stars -->
     <g transform="translate(270, 15)">
@@ -141,7 +149,7 @@ const svgContent = `<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://
       </g>
     </g>
 
-    <line x1="470" y1="15" x2="470" y2="60" stroke="#f1f5f9" stroke-width="2" />
+    <line x1="470" y1="15" x2="470" y2="60" stroke="#e2e8f0" stroke-width="2" />
 
     <!-- Stat 3: Contributors -->
     <g transform="translate(500, 15)">
@@ -152,7 +160,7 @@ const svgContent = `<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://
       </g>
     </g>
 
-    <line x1="700" y1="15" x2="700" y2="60" stroke="#f1f5f9" stroke-width="2" />
+    <line x1="700" y1="15" x2="700" y2="60" stroke="#e2e8f0" stroke-width="2" />
 
     <!-- Stat 4: Years of Experience -->
     <g transform="translate(730, 15)">
@@ -163,7 +171,7 @@ const svgContent = `<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://
       </g>
     </g>
 
-    <line x1="930" y1="15" x2="930" y2="60" stroke="#f1f5f9" stroke-width="2" />
+    <line x1="930" y1="15" x2="930" y2="60" stroke="#e2e8f0" stroke-width="2" />
 
     <!-- Stat 5: Commitment -->
     <g transform="translate(960, 15)">
@@ -177,4 +185,4 @@ const svgContent = `<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://
 </svg>`;
 
 fs.writeFileSync(outputPath, svgContent);
-console.log('Lightweight SVG Header successfully generated!');
+console.log('Vibrant SVG Header with 100% visible Finspark background built successfully!');
