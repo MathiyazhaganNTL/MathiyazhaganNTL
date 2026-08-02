@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="./assets/header.svg" width="100%" alt="Mathiyazhagan T — Senior Software Engineer Header Banner" />
+  <img src="./assets/header.svg" width="100%" alt="Mathiyazhagan T — Executive Engineering Profile Banner" />
 </div>
 
 <br />
@@ -8,6 +8,16 @@
   <a href="https://github.com/MathiyazhaganNTL">
     <img src="https://github-readme-streak-stats.herokuapp.com/?user=MathiyazhaganNTL&theme=github-dark-blue&hide_border=false&border=21262d&background=0d1117&stroke=58a6ff&ring=58a6ff&fire=58a6ff&currStreakNum=c9d1d9&sideNums=c9d1d9&sideLabels=8b949e&dates=8b949e" alt="Mathiyazhagan NTL GitHub Streak Stats" width="85%" />
   </a>
+</div>
+
+<br />
+
+<div align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/MathiyazhaganNTL/MathiyazhaganNTL/output/github-contribution-grid-snake-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/MathiyazhaganNTL/MathiyazhaganNTL/output/github-contribution-grid-snake.svg" />
+    <img alt="Mathiyazhagan NTL GitHub Contribution Activity" src="https://raw.githubusercontent.com/MathiyazhaganNTL/MathiyazhaganNTL/output/github-contribution-grid-snake-dark.svg" width="85%" />
+  </picture>
 </div>
 
 <br />

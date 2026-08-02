@@ -1,7 +1,12 @@
 const fs = require('fs');
 const path = require('path');
 
+const photoPath = path.join(__dirname, '../Black_court_Mathi.png');
+const bgPath = path.join(__dirname, '../assets/header-bg.png');
 const outputPath = path.join(__dirname, '../assets/header.svg');
+
+const photoB64 = fs.readFileSync(photoPath).toString('base64');
+const bgB64 = fs.readFileSync(bgPath).toString('base64');
 
 const svgContent = `<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="100%" viewBox="0 0 1200 520" fill="none">
   <defs>
@@ -35,19 +40,19 @@ const svgContent = `<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://
 
   <!-- Background Pattern Image Overlay -->
   <g opacity="0.65">
-    <image href="./header-bg.png" x="10" y="10" width="1180" height="500" preserveAspectRatio="xMidYMid slice" />
+    <image href="data:image/png;base64,${bgB64}" x="10" y="10" width="1180" height="500" preserveAspectRatio="xMidYMid slice" />
   </g>
 
   <!-- Translucent Content Layer for Legibility -->
   <rect x="25" y="25" width="1150" height="470" rx="12" fill="#ffffff" fill-opacity="0.88" />
 
   <!-- ==================== LEFT COLUMN: PROFILE PHOTO ==================== -->
-  <!-- Outer Ring -->
-  <circle cx="170" cy="195" r="109" fill="none" stroke="#e2e8f0" stroke-width="3" />
+  <!-- Outer Accent Ring -->
+  <circle cx="170" cy="195" r="109" fill="none" stroke="#2563eb" stroke-width="3.5" />
   <circle cx="170" cy="195" r="106" fill="#f8fafc" />
 
-  <!-- Profile Image -->
-  <image href="./profile-photo.jpg" x="65" y="65" width="210" height="260" clip-path="url(#avatar-clip)" preserveAspectRatio="xMidYMid slice" />
+  <!-- Profile Image from Black_court_Mathi.png -->
+  <image href="data:image/png;base64,${photoB64}" x="65" y="65" width="210" height="260" clip-path="url(#avatar-clip)" preserveAspectRatio="xMidYMid slice" />
 
   <!-- ==================== MIDDLE COLUMN: BIO & DETAILS ==================== -->
   <text x="315" y="105" class="name">Mathiyazhagan T</text>
@@ -62,28 +67,26 @@ const svgContent = `<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://
   <text x="315" y="232" class="bio">Focused on solving real-world problems with scalable,</text>
   <text x="315" y="254" class="bio">efficient, and user-centric solutions.</text>
 
-  <!-- Contact Information Bar -->
-  <g transform="translate(315, 290)">
-    <!-- Location Pill -->
+  <!-- Contact Information Grid (2 Balanced Rows - NO OVERLAP) -->
+  <g transform="translate(315, 278)">
+    <!-- Row 1: Location & Email -->
     <g transform="translate(0, 0)">
       <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5a2.5 2.5 0 1 1 0-5 2.5 2.5 0 0 1 0 5z" fill="#64748b" transform="scale(0.8) translate(0, -3)"/>
       <text x="20" y="12" class="contact-text">India</text>
     </g>
 
-    <!-- Email Pill -->
-    <g transform="translate(75, 0)">
+    <g transform="translate(105, 0)">
       <path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z" fill="#2563eb" transform="scale(0.75) translate(0, -2)"/>
       <text x="22" y="12" class="contact-text">mathiyazhaganntl@gmail.com</text>
     </g>
 
-    <!-- Portfolio Pill -->
-    <g transform="translate(295, 0)">
+    <!-- Row 2: Portfolio & LinkedIn -->
+    <g transform="translate(0, 28)">
       <path d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76 0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71 0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71 0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76 0 5-2.24 5-5s-2.24-5-5-5z" fill="#64748b" transform="scale(0.75) translate(0, -2)"/>
       <text x="22" y="12" class="contact-text">mathintlportfolio.dev</text>
     </g>
 
-    <!-- LinkedIn Pill -->
-    <g transform="translate(465, 0)">
+    <g transform="translate(205, 28)">
       <rect x="0" y="-1" width="16" height="16" rx="3" fill="#0077b5" />
       <text x="4" y="11" font-size="10" font-weight="700" fill="#ffffff">in</text>
       <text x="22" y="12" class="contact-text">linkedin.com/in/mathiyazhagan-ntl</text>
@@ -174,4 +177,4 @@ const svgContent = `<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://
 </svg>`;
 
 fs.writeFileSync(outputPath, svgContent);
-console.log('Lightweight SVG Header generated successfully at:', outputPath);
+console.log('Updated SVG Header built successfully with Black_court_Mathi.png and 2-row contact info!');
