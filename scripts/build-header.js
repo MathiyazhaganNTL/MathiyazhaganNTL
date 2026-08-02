@@ -1,7 +1,7 @@
 const fs = require('fs');
 const path = require('path');
 
-const photoPath = path.join(__dirname, '../Black_court_Mathi.png');
+const photoPath = path.join(__dirname, '../assets/avatar-opt.jpg');
 const bgPath = path.join(__dirname, '../assets/header-bg.png');
 const outputPath = path.join(__dirname, '../assets/header.svg');
 
@@ -38,13 +38,13 @@ const svgContent = `<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://
   <!-- Outer Main Card Container -->
   <rect x="10" y="10" width="1180" height="500" rx="16" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.5" filter="url(#card-shadow)" />
 
-  <!-- Background Pattern Image Overlay -->
-  <g opacity="0.65">
+  <!-- Finspark Background Pattern Image Overlay -->
+  <g opacity="0.75">
     <image href="data:image/png;base64,${bgB64}" x="10" y="10" width="1180" height="500" preserveAspectRatio="xMidYMid slice" />
   </g>
 
   <!-- Translucent Content Layer for Legibility -->
-  <rect x="25" y="25" width="1150" height="470" rx="12" fill="#ffffff" fill-opacity="0.88" />
+  <rect x="25" y="25" width="1150" height="470" rx="12" fill="#ffffff" fill-opacity="0.86" />
 
   <!-- ==================== LEFT COLUMN: PROFILE PHOTO ==================== -->
   <!-- Outer Accent Ring -->
@@ -52,7 +52,7 @@ const svgContent = `<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://
   <circle cx="170" cy="195" r="106" fill="#f8fafc" />
 
   <!-- Profile Image from Black_court_Mathi.png -->
-  <image href="data:image/png;base64,${photoB64}" x="65" y="65" width="210" height="260" clip-path="url(#avatar-clip)" preserveAspectRatio="xMidYMid slice" />
+  <image href="data:image/jpeg;base64,${photoB64}" x="65" y="90" width="210" height="210" clip-path="url(#avatar-clip)" preserveAspectRatio="xMidYMid slice" />
 
   <!-- ==================== MIDDLE COLUMN: BIO & DETAILS ==================== -->
   <text x="315" y="105" class="name">Mathiyazhagan T</text>
@@ -177,4 +177,4 @@ const svgContent = `<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://
 </svg>`;
 
 fs.writeFileSync(outputPath, svgContent);
-console.log('Updated SVG Header built successfully with Black_court_Mathi.png and 2-row contact info!');
+console.log('SVG Header rebuilt successfully with Finspark background pattern!');
