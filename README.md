@@ -6,7 +6,7 @@
 
 <div align="center">
   <a href="https://github.com/MathiyazhaganNTL">
-    <img src="https://github-readme-streak-stats.herokuapp.com/?user=MathiyazhaganNTL&theme=github-dark-blue&hide_border=false&border=21262d&background=0d1117&stroke=58a6ff&ring=58a6ff&fire=58a6ff&currStreakNum=c9d1d9&sideNums=c9d1d9&sideLabels=8b949e&dates=8b949e" alt="Mathiyazhagan NTL GitHub Streak Stats" width="85%" />
+    <img src="https://streak-stats.demolab.com/?user=MathiyazhaganNTL&theme=github-dark-blue&hide_border=false&border=21262d&background=0d1117&stroke=58a6ff&ring=58a6ff&fire=58a6ff&currStreakNum=c9d1d9&sideNums=c9d1d9&sideLabels=8b949e&dates=8b949e" alt="Mathiyazhagan NTL GitHub Streak Stats" width="85%" />
   </a>
 </div>
 
@@ -124,16 +124,12 @@ Specialized in converting complex technical requirements into scalable, reliable
 ## GitHub Statistics
 
 <div align="center">
-  <table border="0" width="100%">
-    <tr>
-      <td width="50%" valign="top">
-        <img src="https://github-readme-stats.vercel.app/api?username=MathiyazhaganNTL&show_icons=true&theme=github_dark&hide_border=false&border_color=21262d&title_color=58a6ff&icon_color=58a6ff&text_color=c9d1d9&bg_color=0d1117&count_private=true" width="100%" alt="Mathiyazhagan NTL GitHub Stats" />
-      </td>
-      <td width="50%" valign="top">
-        <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=MathiyazhaganNTL&layout=compact&theme=github_dark&hide_border=false&border_color=21262d&title_color=58a6ff&text_color=c9d1d9&bg_color=0d1117&hide=html,css" width="100%" alt="Mathiyazhagan NTL Top Languages" />
-      </td>
-    </tr>
-  </table>
+  <a href="https://github.com/MathiyazhaganNTL">
+    <img src="https://github-readme-stats-fast.vercel.app/api?username=MathiyazhaganNTL&show_icons=true&theme=github_dark&hide_border=false&border_color=21262d&title_color=58a6ff&icon_color=58a6ff&text_color=c9d1d9&bg_color=0d1117&count_private=true" alt="Mathiyazhagan NTL GitHub Stats" height="170" />
+  </a>
+  <a href="https://github.com/MathiyazhaganNTL">
+    <img src="https://github-readme-stats-fast.vercel.app/api/top-langs/?username=MathiyazhaganNTL&layout=compact&theme=github_dark&hide_border=false&border_color=21262d&title_color=58a6ff&text_color=c9d1d9&bg_color=0d1117&hide=html,css" alt="Mathiyazhagan NTL Top Languages" height="170" />
+  </a>
 </div>
 
 ---
