@@ -21,7 +21,9 @@ $bmpAv = New-Object System.Drawing.Bitmap 400, 400
 $gAv = [System.Drawing.Graphics]::FromImage($bmpAv)
 $gAv.InterpolationMode = [System.Drawing.Drawing2D.InterpolationMode]::HighQualityBicubic
 $gAv.SmoothingMode = [System.Drawing.Drawing2D.SmoothingMode]::HighQuality
-$gAv.DrawImage($srcAv, 0, 0, 400, 400)
+$srcRect = New-Object System.Drawing.Rectangle 73, 45, 750, 750
+$destRect = New-Object System.Drawing.Rectangle 0, 0, 400, 400
+$gAv.DrawImage($srcAv, $destRect, $srcRect, [System.Drawing.GraphicsUnit]::Pixel)
 $bmpAv.Save("g:\github\MathiyazhaganNTL\assets\avatar-opt.jpg", [System.Drawing.Imaging.ImageFormat]::Jpeg)
 $gAv.Dispose()
 $bmpAv.Dispose()
