@@ -6,7 +6,7 @@
 
 <div align="center">
   <a href="https://github.com/MathiyazhaganNTL">
-    <img src="https://streak-stats.demolab.com/?user=MathiyazhaganNTL&theme=github-dark-blue&hide_border=false&border=21262d&background=0d1117&stroke=58a6ff&ring=58a6ff&fire=58a6ff&currStreakNum=c9d1d9&sideNums=c9d1d9&sideLabels=8b949e&dates=8b949e" alt="Mathiyazhagan NTL GitHub Streak Stats" width="85%" />
+    <img src="https://github-streak-stats.vercel.app/?user=MathiyazhaganNTL&theme=dark&background=0d1117&border=21262d&stroke=58a6ff&ring=58a6ff&fire=58a6ff&currStreakNum=c9d1d9&sideNums=c9d1d9&sideLabels=8b949e&dates=8b949e" alt="Mathiyazhagan NTL GitHub Streak Stats" width="85%" />
   </a>
 </div>
 
